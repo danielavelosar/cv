@@ -1,0 +1,315 @@
+{
+  "phase": 4,
+  "titre": "Phase 4 — Économie quantitative + synthèses transversales",
+  "syntheseDossier": [
+    "Verdict 🟢 (3 passes) : l'économie quantitative est un plan B intellectuellement solide, pas un plan A — fort sur ③④, moyen sur ①, mal aligné avec ② création visuelle.",
+    "L'ABM (économie computationnelle à base d'agents), qui matcherait ses multi-agents en prod, est marginal dans les maquettes de master 🟡 — angle de lettre, pas un cursus.",
+    "QEM, vaisseau amiral EMJM du domaine : PAS de bourse cohorte 2025-27 🟡 ; statut 2027-29 inconnu ⚫ — re-vérifier nov. 2026 sur master-economics-qem.eu.",
+    "Voie éco financée : Allemagne sans frais (Kiel, Bonn 0 € 🟡), waivers espagnols (BSE, UC3M, CEMFI via Carolina-BBVA) ou Eiffel (PSE/TSE) 🟡.",
+    "Le système colombien 2026 finance le retour, pas l'émigration : Colfuturo = prêt 50 000 USD 🟢, condonation 25 % seulement si retour + 36 mois 🟡 ; MinCiencias hors master étranger.",
+    "Vrais leviers côté destination : EMJM ≈1 400 €/mois × 24 mois sans retour 🟡 [2026] > Eiffel 1 181-1 200 €/mois 🔴 > Carolina 550-900 €/mois 🟡 > Allemagne 0 € > jokers Hongrie/Corée/Japon.",
+    "Chevening : le 🔴 le plus important — passé de « bloquée » à « plausible » (2 800 h) ; à trancher en août 2026 (heures + clause de retour 2 ans ⚫).",
+    "Tout se joue dans l'entonnoir octobre 2026 – mi-mars 2027 (pic 1 déc. 2026 – 4 mars 2027) ; sites officiels en 403 → quasi tout est source secondaire 🟡."
+  ],
+  "domaines": [
+    {
+      "nom": "Économie quantitative / computationnelle",
+      "definition": [
+        "Micro/macro/économétrie formalisées : preuves, modèles, identification causale sur données.",
+        "Outillage : R, Stata, Python (QuantEcon) sur données tabulaires — zéro Blender.",
+        "Branche computationnelle : modèles à base d'agents (ABM/ACE, tradition Epstein & Axtell, Tesfatsion).",
+        "Débouché type : politiques publiques, banques centrales, recherche — impact réel mais lent et médié.",
+        "L'ABM reste marginal dans les maquettes de master 🟡 (FR+ES concordants) : angle de mémoire, pas un cursus."
+      ],
+      "alignement": [
+        {"priorite": "① Impact concret", "score": 3, "note": "Réel via politiques publiques, mais lent et médié"},
+        {"priorite": "② Création visuelle", "score": 1, "note": "Quasi absente : preuves et problem sets, zéro Blender"},
+        {"priorite": "③ Problèmes techniques", "score": 5, "note": "Fortement servi : maths dures, économétrie, calcul"},
+        {"priorite": "④ Cerveau & monde", "score": 4, "note": "Fortement servi : décisions, incitations, sociétés"}
+      ],
+      "quotidienMaster": [
+        "Preuves et problem sets hebdomadaires (micro, macro, économétrie).",
+        "R/Stata/Python sur données tabulaires ; culture de la preuve (Bonn, CEMFI).",
+        "Séquences style PhD en 2 ans (CEMFI, UC3M, UAB IDEA) ; M1 requis pour le M2 APE.",
+        "Aucune composante visuelle/3D dans les maquettes consultées 🟡."
+      ],
+      "quotidienPro": [
+        "Économiste quantitative : politiques publiques, évaluation d'impact, banques centrales.",
+        "RA/predoc payés en Europe : CEMFI, Banco de España, BSE/CREI, EURAXESS 🟡.",
+        "Conditions de nationalité des institutions (Banque de France…) ⚫ — vérifier sites employeurs.",
+        "Salaires : ⚫ non trouvés (passe EN : « unsourced, confidence LOW »)."
+      ],
+      "marche2026": [
+        "Salaires du domaine ⚫ non trouvés — aucune passe n'a de source fiable.",
+        "Route RA/predoc payé très crédible pour un profil qui code 🟡 — convocatorias 2027 ⚫ (automne 2026).",
+        "PhD US financé (tuition waiver + stipend, GRE souvent optionnel) : deadlines ~déc. 2026 🟡.",
+        "Placement doctoral top depuis Bonn BGSE 🟡 ; hub éco BSE/CREI/UPF à Barcelone 🟡."
+      ],
+      "biblio": [
+        "CORE Econ, The Economy 2.0 — gratuit, existe en espagnol (core-econ.org/the-economy/es/).",
+        "Sargent & Stachurski, Quantitative Economics with Python — QuantEcon, gratuit, son stack.",
+        "Epstein & Axtell, Growing Artificial Societies (MIT Press, 1996) — fondation de l'ACE.",
+        "Angrist & Pischke, Mostly Harmless Econometrics (Princeton UP, 2009).",
+        "Tesfatsion & Judd (dir.), Handbook of Computational Economics vol. 2 : ACE (2006).",
+        "Farmer & Foley, « The economy needs agent-based modelling », Nature 460 (2009) 🟢."
+      ],
+      "parcours20h": [
+        "1. CORE Econ (es) unités 1-3 — 5 h : vocabulaire et modèles de base.",
+        "2. QuantEcon en Python, 4-5 leçons (dynamique, Markov, équilibre) — 5 h.",
+        "3. Réimplémenter un ABM social (Sugarscape/Schelling) avec Mesa — 4 h.",
+        "4. Farmer & Foley 2009 + 2 papers JASSS (inégalités urbaines) + Mostly Harmless ch. 1-2 — 4 h.",
+        "5. Lire les maquettes PSE-APE M1, CEMFI, BSE ; noter ses lacunes micro/macro/économétrie — 2 h."
+      ],
+      "programmes": [
+        {"univ": "PSE (Paris 1, ENS-PSL, EHESS)", "intitule": "Master APE — Analysis and Policy in Economics", "pays": "France", "frais": "254 €/an + CVEC 105 € (2026) 🟡 ; décret mai 2026 ⚫", "fraisBadge": "🟡", "deadline": "15 jan.–12 mars 2027 🟡 (patron 2026)", "deadlineBadge": "🟡", "financement": "Eiffel (nomination PSE) — contacter dès sept. 2026", "finBadge": "🟡", "url": "https://www.parisschoolofeconomics.eu/en/teaching/masters-program/ape-analysis-policy-in-economics/", "retenu": true, "verdict": "France la moins chère ; entrer en M1 ; mémoire « inégalités d'accès » vendable (Piketty)."},
+        {"univ": "TSE Toulouse", "intitule": "Master Econometrics & Statistics, parcours D3S", "pays": "France", "frais": "3 941 €/an 🟡 (2024-25)", "fraisBadge": "🟡", "deadline": "~fin fév. 2027 🟡 (patron 2026)", "deadlineBadge": "🟡", "financement": "ANITI (toutes nationalités) + Eiffel 🟡", "finBadge": "🟡", "url": "https://www.tse-fr.eu/admissions", "retenu": false, "verdict": "Le plus proche de son stack data science ; site en 403 — tout confirmer à l'automne 2026."},
+        {"univ": "Dauphine-PSL", "intitule": "Master Quantitative Economics", "pays": "France", "frais": "🔴 510–22 000 € selon régime (2025, agrégateur)", "fraisBadge": "🔴", "deadline": "15 jan.–24 fév. 2027 🟡 (patron 2026)", "deadlineBadge": "🟡", "financement": "Eiffel (nomination active) 🟡", "finBadge": "🟡", "url": "https://dauphine.psl.eu/en/training/masters-degrees/quantitative-economics", "retenu": false, "verdict": "M2 économie des plateformes cohérent avec son vécu tech ; frais illisibles 🔴 à vérifier."},
+        {"univ": "ENSAE Paris", "intitule": "MS® Data Science (bac+6, 1 an)", "pays": "France", "frais": "⚫ non trouvés (ordre 10-20 k€) — ensae.fr", "fraisBadge": "⚫", "deadline": "2e session ~avril 2027 🟡 (patron 2026)", "deadlineBadge": "🟡", "financement": "Eiffel probablement inapplicable (hors LMD) ⚫", "finBadge": "⚫", "url": "https://www.ensae.fr/en/education/advanced-masters/ms-data-science", "retenu": false, "verdict": "Plan B payant uniquement ; français requis (DELF B2/C1 ⚫), équivalence bac+5 ⚫."},
+        {"univ": "UCLouvain", "intitule": "Master [120] sciences éco., orientation économétrie (ETRI2M)", "pays": "Belgique", "frais": "5 010 € (2025-26) + ~4 175 € dès 2026-27 🟡", "fraisBadge": "🟡", "deadline": "~30 avril 2027 ⚫ (à vérifier)", "deadlineBadge": "⚫", "financement": "Faible : pas d'Eiffel ; exemption ARES ⚫", "finBadge": "⚫", "url": "https://uclouvain.be/en-prog-2025-etri2m", "retenu": false, "verdict": "Excellence académique mais financement structurellement plus dur : cible secondaire."},
+        {"univ": "Université de Montréal", "intitule": "M.Sc. sciences économiques", "pays": "Canada (QC)", "frais": "18-30 k CAD/an (2025-26) 🟡 − exemption auto", "fraisBadge": "🟡", "deadline": "~1er fév. 2027 ⚫ (à vérifier)", "deadlineBadge": "⚫", "financement": "Exemption UdeM + TA/RA ; PGWP 3 ans 🟡", "finBadge": "🟡", "url": "https://admission.umontreal.ca/programmes/maitrise-en-sciences-economiques/", "retenu": false, "verdict": "Atout unique : PGWP 3 ans + voie résidence — meilleure trajectoire « rester dehors » durable."},
+        {"univ": "QEM (Paris 1 + UCLouvain + UAB + Ca' Foscari + SGH)", "intitule": "EMJM Models & Methods of Quantitative Economics", "pays": "multi-UE", "frais": "Participation costs si non financée 🟡", "fraisBadge": "🟡", "deadline": "fenêtre 2027 non publiée ⚫", "deadlineBadge": "⚫", "financement": "PAS de bourse EMJM cohorte 2025-27 🟡 ; 2027-29 ⚫", "finBadge": "🟡", "url": "https://master-economics-qem.eu/", "retenu": false, "verdict": "Sans bourse = programme payant multi-pays : intérêt faible face à Kiel/Bonn gratuits."},
+        {"univ": "Kiel University", "intitule": "MSc Quantitative Economics", "pays": "Allemagne", "frais": "0 € 🟡 (contribution semestrielle seule)", "fraisBadge": "🟡", "deadline": "~15 juil./1er août 2027 🟡 (uni-assist)", "deadlineBadge": "🟡", "financement": "Sans frais ; vie ~950 €/mois 🟡 ; permis 18 mois après", "finBadge": "🟡", "url": "https://www.wiso.uni-kiel.de/en/study/master/quantitative-economics", "retenu": true, "verdict": "Seul deadline tardif de la carte : plan de secours naturel si l'entonnoir déc.-mars échoue."},
+        {"univ": "Universität Bonn", "intitule": "MSc Economics (BGSE)", "pays": "Allemagne", "frais": "0 € + ~330 €/semestre social 🟡", "fraisBadge": "🟡", "deadline": "15 jan. 2027 🟡 (portail ouvre mi-nov. 2026)", "deadlineBadge": "🟡", "financement": "Sans frais ; placement PhD top 🟡", "finBadge": "🟡", "url": "https://www.econ.uni-bonn.de/en/study-programs/study-programs/master/master-economics", "retenu": true, "verdict": "Research-oriented, sélectif ; demander la VPD uni-assist dès nov. 2026 (4-6 semaines)."},
+        {"univ": "VU Amsterdam", "intitule": "MSc Econometrics and Data Science", "pays": "Pays-Bas", "frais": "⚫ 2027 non trouvé (norme NL 18-26 k€)", "fraisBadge": "⚫", "deadline": "~1er avril 2027 ⚫ (à vérifier)", "deadlineBadge": "⚫", "financement": "Peu de financement 🟡", "finBadge": "🟡", "url": "https://vu.nl/en/education/master/econometrics-and-operations-research/admissions", "retenu": false, "verdict": "Prérequis explicites en économétrie : le programme le plus fermé de la liste pour elle."},
+        {"univ": "Tilburg University", "intitule": "MSc Economics, track Data Science", "pays": "Pays-Bas", "frais": "19 900 € (2026-27, officiel) 🟡", "fraisBadge": "🟡", "deadline": "rondes jan.-avril 2027 ⚫ (à vérifier)", "deadlineBadge": "⚫", "financement": "Waivers limités 🟡", "finBadge": "🟡", "url": "https://www.tilburguniversity.edu/education/masters-programs/economics-data-science", "retenu": false, "verdict": "Entrée éco la plus accueillante des NL pour ingénieure, mais difficilement finançable."},
+        {"univ": "BSE (UPF/UAB), Barcelone", "intitule": "MSc in Economics", "pays": "Espagne", "frais": "≈16 500 € (2026, agrégateur) 🟡", "fraisBadge": "🟡", "deadline": "1 déc. 2026 · financement 15 jan. · fin 8 juin 2027 🟢", "deadlineBadge": "🟢", "financement": "Waivers 25-100 % + bourses complètes ; ~550 k€/an 🟡", "finBadge": "🟡", "url": "https://bse.eu/masters-degrees/economics-finance/economics", "retenu": true, "verdict": "Hub éco top d'Europe ; seules dates 2027 confirmées officiellement de toute la phase."},
+        {"univ": "CEMFI, Madrid", "intitule": "Master in Economics and Finance", "pays": "Espagne", "frais": "≈21 000 € totaux (2026, agrégateur) 🟡", "fraisBadge": "🟡", "deadline": "financement 31 jan. · final 31 mai 2027 🟡 (patron 2026)", "deadlineBadge": "🟡", "financement": "Carolina-BBVA : 2 places LatAm, matrícula + 900 €/mois × 22 mois 🟡 ; GRE obligatoire", "finBadge": "🟡", "url": "https://www.cemfi.es/programs/master/program.asp", "retenu": true, "verdict": "Pré-doctoral de facto ; accepte les ingénieures ; la ruta sin deuda existe mais 2 places LatAm."},
+        {"univ": "UC3M, Madrid", "intitule": "Master in Economic Analysis", "pays": "Espagne", "frais": "⚫ non trouvé (prix par crédit) — uc3m.es", "fraisBadge": "⚫", "deadline": "⚫ rondes dès l'automne 2026 — vérifier", "deadlineBadge": "⚫", "financement": "5 bourses matrícula + stipende ≈830 €/mois + 1 Santander (matrícula + 10 000 €) 🟡", "finBadge": "🟡", "url": "https://www.uc3m.es/master/economic-analysis", "retenu": false, "verdict": "Financement non-UE réel ; GRE non exigé d'après ce qui a été trouvé ⚫."},
+        {"univ": "UAB (IDEA), Bellaterra", "intitule": "Master in Economic Analysis (IDEA)", "pays": "Espagne", "frais": "⚫ prix public catalan + suppl. non-UE (simulateur)", "fraisBadge": "⚫", "deadline": "rolling 15 nov. 2026 – 30 juin 2027 🟡", "deadlineBadge": "🟡", "financement": "Bourses du programme (à vérifier) ⚫", "finBadge": "⚫", "url": "https://www.uabidea.eu/master-program", "retenu": false, "verdict": "Accent explicite « computational » — le plus proche de l'ABM en Espagne ; candidater tôt = 0 €."},
+        {"univ": "Universidad de Alicante", "intitule": "Máster en Economía con Ciencia de Datos", "pays": "Espagne", "frais": "≈2 120 €/an (réf. master frère 2025-26) 🟡", "fraisBadge": "🟡", "deadline": "préinscription ~mars-juin 2027 🟡 (patron 2026)", "deadlineBadge": "🟡", "financement": "Prix public bas + Carolina possible 🟡", "finBadge": "🟡", "url": "https://web.ua.es/es/masteres/eco-dat-sci/master-universitario-en-economia-con-ciencia-de-datos.html", "retenu": false, "verdict": "Fusion éco+données au prix le plus bas ; fiche en 403 : langue et tasas ⚫."}
+      ],
+      "fusion": [
+        "ABM/ACE = pont littéral avec ses systèmes multi-agents en production (Mesa, Sugarscape/Schelling).",
+        "Mémoire « inégalités d'accès aux équipements publics urbains » : continuité Kennedy/Bogotá, vendable à PSE (tradition Piketty).",
+        "Chetty et al., Opportunity Atlas : modèle méthodologique pour « accès aux espaces publics ».",
+        "UAB IDEA : « advanced quantitative and computational methods » — l'orthodoxie la plus proche de l'ABM.",
+        "TSE D3S : économétrie + ML pour sciences sociales, conçu pour profils quantitatifs non-éco."
+      ],
+      "risque": [
+        "Verdict franc 🟢 (3 passes) : plan B intellectuellement solide, PAS un plan A — mal aligné avec la priorité ② création visuelle (zéro Blender au quotidien).",
+        "L'ABM, son vrai point d'accroche, est marginal dans les maquettes de master 🟡 : angle de lettre et de mémoire, pas un cursus.",
+        "QEM sans bourse EMJM cohorte 2025-27 🟡 (2027-29 ⚫) : la voie financée passe par Kiel/Bonn 0 €, waivers espagnols ou Eiffel.",
+        "Test honnête (passe ES) : si les 12 premières heures du parcours 20 h l'ennuient, ce domaine n'est pas son plan A."
+      ],
+      "annexes": [
+        {"titre": "Conférences et communautés", "lignes": [
+          "CEF (Society for Computational Economics) · Social Simulation Conference (ESSA).",
+          "ASSA/AEA · SAEe (Espagne, déc.) · LACEA-LAMES (Amérique latine).",
+          "Nada es Gratis (nadaesgratis.es) — comment pense le gremio espagnol qui l'évaluerait · Foco Económico · VoxEU/CEPR."
+        ]},
+        {"titre": "MOOCs et autoformation", "lignes": [
+          "QuantEcon (quantecon.org) · Complexity Explorer « Intro to Agent-Based Modeling » (Santa Fe).",
+          "CORE Econ en espagnol · MITx 14.310x (statistique appliquée)."
+        ]}
+      ],
+      "biblioComplete": [
+        "CORE Econ, The Economy 2.0 — gratuit, en espagnol : https://www.core-econ.org/the-economy/es/",
+        "Sargent & Stachurski, Quantitative Economics with Python — https://quantecon.org",
+        "Epstein & Axtell, Growing Artificial Societies, MIT Press, 1996",
+        "Angrist & Pischke, Mostly Harmless Econometrics, Princeton UP, 2009",
+        "Tesfatsion & Judd (dir.), Handbook of Computational Economics vol. 2 : ACE, North-Holland, 2006",
+        "Wooldridge, économétrie d'entrée · Judd, Numerical Methods in Economics (avancé)",
+        "Railsback & Grimm (méthodes ABM) · Rodrik, Economics Rules · Piketty / Banerjee-Duflo (inégalités)",
+        "Farmer & Foley, « The economy needs agent-based modelling », Nature 460 (2009) 🟢 — https://www.nature.com/articles/460685a",
+        "Axtell & Farmer, survey ABM, JEL — référence exacte ⚫ non trouvée — vérifier https://www.aeaweb.org/journals/jel",
+        "Chetty et al., Opportunity Atlas (QJE/NBER)",
+        "Revues : JASSS (open access) · Computational Economics · JEDC · Quantitative Economics · Journal of Urban Economics"
+      ]
+    }
+  ],
+  "transversal": {
+    "emjm": [
+      {"nom": "IMLEX", "domaine": "imagerie & lumière en XR", "consortium": "multi-UE + semestre au Japon", "montant": "≈1 400 €/mois + scolarité 🟡 [2026]", "deadline": "~21 jan. 2027, ronde unique 🟡 (patron 2026)", "fit": "Jouable — cible n°1 : meilleure fusion créatif+technique de tout le registre.", "url": "https://www.imlex.org/"},
+      {"nom": "IMIM (Imaging)", "domaine": "imagerie/vision", "consortium": "⚫ consortium — vérifier emjm-imaging.eu", "montant": "≈1 400 €/mois + scolarité 🟡 [2026]", "deadline": "~nov. 2026–jan. 2027 (R1 2026 : 9 jan.) 🟡", "fit": "Jouable — profil CV/3D directement pertinent.", "url": "https://www.emjm-imaging.eu/"},
+      {"nom": "EMAI", "domaine": "intelligence artificielle", "consortium": "UPF, Sapienza, Radboud, Ljubljana", "montant": "≈1 400 €/mois + scolarité 🟡 [2026]", "deadline": "ronde bourse ~15 nov.–20 déc. 2026 🟡 (patron 2025)", "fit": "Jouable — continuité CS/IA, l'admission la plus sûre du lot.", "url": "https://www.upf.edu/web/emai"},
+      {"nom": "DEAI (ex-BDMA)", "domaine": "data engineering + IA", "consortium": "ULB / UPC (successeur de BDMA)", "montant": "≈1 400 €/mois + scolarité 🟡 [2026]", "deadline": "⚫ non trouvée — vérifier ULB/DTIM", "fit": "Jouable — profil FastAPI/Mongo = étudiante cible.", "url": "https://dtim.upc.edu/en/news/end-of-the-7th-edition-of-the-bdma-master-transition-to-deai"},
+      {"nom": "SMACCs", "domaine": "smart cities", "consortium": "multi-UE (contrat EMJM 2023-2029)", "montant": "≈1 400 €/mois + scolarité 🟡 [2026]", "deadline": "~jan.–mars 2027 (2024 : ~15 mars) 🟡", "fit": "Jouable — lien direct avec sa recherche sur les parcs.", "url": "https://www.smaccs.eu/"},
+      {"nom": "Copernicus Digital Earth", "domaine": "géodonnées/EO/géovisualisation", "consortium": "multi-UE (Salzburg et al.)", "montant": "≈1 400 €/mois + scolarité 🟡 [2026]", "deadline": "~10 nov. 2026 – 18 jan. 2027 🟡 (patron 2026)", "fit": "Jouable — l'accessibilité des parcs en version géospatiale.", "url": "https://master-cde.eu/admission/procedures-deadlines/"},
+      {"nom": "Cartography M.Sc.", "domaine": "cartographie/géoviz", "consortium": "TUM, TU Wien, Dresden, Twente", "montant": "≈1 400 €/mois + scolarité 🟡 [2026]", "deadline": "bourse ~15 mars · autofinancé 31 mai 🟡 (patron annuel)", "fit": "Jouable — cartes + design visuel + données : sert ② et ①.", "url": "https://cartographymaster.eu/how-to-apply/"},
+      {"nom": "Choreomundus", "domaine": "anthropologie de la danse", "consortium": "multi-UE (Roehampton et al.)", "montant": "15 bourses × 1 400 €/mois (2026) 🟡", "deadline": "ouvre ~oct. 2026, ferme ~jan. 2027 🟡", "fit": "Partiel — identité danseuse mais faible sur ③ : pivot de vie.", "url": "https://choreomundus.org/"},
+      {"nom": "Media Arts Cultures", "domaine": "media art / curation", "consortium": "multi-UE (Danube Krems et al.)", "montant": "≈1 400 €/mois + scolarité 🟡 [2026]", "deadline": "~1er jan. 2027 🟡 (patron)", "fit": "Partiel — créatif mais peu de code.", "url": "https://www.mediaartscultures.eu/mediaac/application/"}
+    ],
+    "emjmEcartes": [
+      "QEM (éco quantitative) : admissible MAIS pas de bourse cohorte 2025-27 🟡 ; statut 2027-29 ⚫ — re-vérifier nov. 2026.",
+      "MAIA (imagerie médicale) : pas de bourses EMJM 2024-26 (autofinancé) — bloqué, re-vérifier 2027 ⚫.",
+      "4CITIES (études urbaines) : programme terminé, dernière candidature 2023 🟡 — mort, ne pas poursuivre.",
+      "GameToLearn : non remonté par aucune des trois passes — ⚫ vérifier existence sur le catalogue EACEA.",
+      "EDISS (data-intensive software) : existence édition 2027 non confirmée ⚫ — vérifier master-ediss.eu.",
+      "Action résiduelle : 1 h de navigation du catalogue officiel EACEA (filtres ICT/Health/Arts) — catalogue en 403 lors des passes."
+    ],
+    "chevening": [
+      "Barre : 2 800 h d'expérience ≈ 2 ans à 35 h/semaine 🟡 (chevening.org via recherche, 2026).",
+      "Ce qui compte : stages payés/non payés + temps partiel + freelance, cumulables jusqu'à 15 périodes — sauf activité créditée au cursus.",
+      "Son cas : ~20 h/semaine × ~2,7 ans ≈ 2 800 h — plausible SI son travail non crédité est documentable.",
+      "Contradiction 🔴 : deux textes officiels divergent (« heures après le diplôme » vs « avant/pendant/après sauf crédité ») ; phases 2-3 disaient « bloquée ».",
+      "Fenêtre de candidature : 4 août – 6 oct. 2026 🟡 [2026] ; offre UK inconditionnelle exigée avant le 8 juil. 2027.",
+      "⚠️ Obligation classique de retour au pays 2 ans après la bourse — non couverte par les passes ⚫, potentiellement rédhibitoire pour « rester dehors ».",
+      "Verdict : ni bloquée ni acquise — calculer ses heures réelles en août 2026 (calculateur officiel) + lire FAQ cycle 2027 + trancher la clause de retour.",
+      "S'il manque des heures → viser le cycle 2028."
+    ],
+    "financement": [
+      {"dispositif": "Bourses EMJM (Erasmus Mundus)", "couverture": "≈1 400 €/mois × 24 mois + frais + assurance 🟡 [2026]", "eligibilite": "Colombie = pays partenaire à quota renforcé ; aucune obligation de retour — alignement maximal", "verdict": "jouable", "deadline": "fenêtres nov. 2026 – mars 2027 selon programme 🟡", "badge": "🟡", "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en"},
+      {"dispositif": "France Excellence Eiffel", "couverture": "1 181 €/mois 🔴 (vs « 1 200 € dès jan. 2026 ») + vols + sécu + exonération université publique ; PAS les écoles à frais propres ; 24 mois si M1", "eligibilite": "Nationalité et âge OK (né après 31/03/1996, cycle 2026) ; diplômée 2026 = profil type ; une seule tentative à vie ; via l'établissement uniquement", "verdict": "jouable", "deadline": "deadlines internes écoles oct.–déc. 2026 🟡 (patrons 2025) ; résultats ~30 mars 2027", "badge": "🟡", "url": "https://www.campusfrance.org/fr/le-programme-de-bourses-france-excellence-eiffel"},
+      {"dispositif": "Chevening (UK)", "couverture": "Master 1 an UK tout compris", "eligibilite": "🔴 2 800 h à documenter (stages/temps partiel comptent) ; clause de retour 2 ans ⚫ contredit « rester dehors »", "verdict": "partiel", "deadline": "4 août – 6 oct. 2026 🟡 [2026]", "badge": "🔴", "url": "https://www.chevening.org/scholarships/application-timeline/"},
+      {"dispositif": "Fundación Carolina (ES)", "couverture": "Matrícula + 550/600/900 €/mois selon programme 🟡 + vol A/R + assurance ; 736 becas (éd. 2026-27)", "eligibilite": "Colombienne OK ; recién graduadas concourent mais l'expérience pèse ; limite d'âge ⚫ ; clause de retour 2027-28 non confirmée ⚫", "verdict": "partiel", "deadline": "~12 jan. – début mars 2027 🟡 (patron 2026 : 12 jan.–2 mars)", "badge": "🟡", "url": "https://www.fundacioncarolina.es/formacion/postgrado/"},
+      {"dispositif": "Carolina–BBVA / CEMFI", "couverture": "Matrícula CEMFI + 900 €/mois × 22 mois + vol + assurance ; 2 places LatAm 🟡", "eligibilite": "Admissible (CEMFI accepte ingénieures, diplôme présentable à la matriculation) ; GRE obligatoire ; concurrence extrême", "verdict": "jouable", "deadline": "candidature FC ~jan.-mars 2027 ; CEMFI financement 31 jan. 2027 🟡 (patron 2026)", "badge": "🟡", "url": "https://www.cemfi.es/programs/master/faqs.asp"},
+      {"dispositif": "Colfuturo Crédito-Beca", "couverture": "Jusqu'à 50 000 USD (2026) 🟢 — prêt partiellement condonable", "eligibilite": "🔴 Depuis 2026 : condonation max 25 % (avant 80 %) SI retour + 36 mois ; sans retour = 100 % de dette. Pour elle : un prêt en dollars, pas une bourse", "verdict": "partiel", "deadline": "~jan.–mars 2027 🟡 (patron 2026 : 4 jan.–4 mars, résultats 18 mai)", "badge": "🔴", "url": "https://www.colfuturo.org/programas/credito-beca"},
+      {"dispositif": "ICETEX — Posgrado Exterior Largo Plazo", "couverture": "Prêt jusqu'à 25 000 USD (12 500/semestre) ; paiement différé post-études", "eligibilite": "Colombienne OK — dette, sans clause de retour signalée", "verdict": "partiel", "deadline": "cycles continus 🟡 [2026]", "badge": "🟡", "url": "https://web.icetex.gov.co/es/-/tu-pagas-exterior-25000-tu-pagas-el-0"},
+      {"dispositif": "ICETEX — Sostenimiento Exterior", "couverture": "Prêt jusqu'à 12 500 USD de manutention", "eligibilite": "Idem — dette", "verdict": "partiel", "deadline": "🟡 [2026]", "badge": "🟡", "url": "https://web.icetex.gov.co/es/-/posgrado-en-el-exterior-para-sostenimiento-tu-pagas-el-0"},
+      {"dispositif": "ICETEX — crédito 100 % condonable maestrías artísticas", "couverture": "Jusqu'à 25 000 USD, condonable 100 % avec projet de « retribución social » artistique en Colombie", "eligibilite": "Si son profil 3D/créatif s'empaquette en master « artistique » ; retribución = lien Colombie (pas forcément résidence — termes ⚫)", "verdict": "partiel", "deadline": "ouvert juin 2026 ; cycle 2027 ⚫", "badge": "⚫", "url": "https://www.infobae.com/colombia/2026/06/16/el-icetex-abrio-credito-condonable-del-100-para-maestrias-artisticas-en-el-exterior-estos-son-los-requisitos-para-participar/"},
+      {"dispositif": "ICETEX — becas de gobiernos extranjeros (portail)", "couverture": "Couvertures 60-100 % (Portugal, Espagne, Mexique, Turquie, Singapour en 2026-2)", "eligibilite": "Selon convocatoria — au cas par cas", "verdict": "partiel", "deadline": "cycles ~juil.-août de chaque année 🟡 [2026]", "badge": "🟡", "url": "https://web.icetex.gov.co/becas/becas-para-estudios-en-el-exterior"},
+      {"dispositif": "MinCiencias « Becas para el Cambio »", "couverture": "830 becas (« becas, no deuda ») — maestrías NATIONALES + doctorat étranger (top-500 Shanghai / top-200 QS art-design)", "eligibilite": "La maestría à l'étranger n'est PAS une modalité → son plan 2027 n'y rentre pas ; pertinent pour un doctorat futur", "verdict": "bloqué", "deadline": "convocatoria 975 close 20 avril 2026 ; cycle 2027 ⚫", "badge": "⚫", "url": "https://minciencias.gov.co/convocatorias/convocatoria-becas-para-el-cambio-formacion-en-maestrias-y-doctorados"},
+      {"dispositif": "Route Allemagne sans frais (Kiel, Bonn — DAAD)", "couverture": "0 € de scolarité ; reste ~950-1 100 €/mois de vie (Sperrkonto 11 904 €/an pour le visa) 🟡", "eligibilite": "Ouverte ; pas une bourse en soi — combinable avec économies ou dette", "verdict": "jouable", "deadline": "Bonn 15 jan. 2027 · Kiel ~mai-juil. 2027 🟡", "badge": "🟡", "url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/"},
+      {"dispositif": "MEXT (Japon, recommandation ambassade)", "couverture": "Tout : frais + ~144 000 ¥/mois + vol (research student → master)", "eligibilite": "OK via ambassade Bogotá ; ⚠️ cycle rentrée 2027 a couru ~avril-juin 2026 — fenêtre probablement DÉJÀ fermée ⚫", "verdict": "partiel", "deadline": "~avril-mai de chaque année ⚫ — vérifier immédiatement", "badge": "⚫", "url": "https://www.colombia.emb-japan.go.jp/"},
+      {"dispositif": "GKS — Global Korea Scholarship", "couverture": "Tout (track graduate, quota Amériques)", "eligibilite": "Colombienne OK, <40 ans OK", "verdict": "jouable", "deadline": "cycle ambassade ~fév.-mars 2027 pour automne 2027 🟡 (tertiaire)", "badge": "🟡", "url": "https://www.studyinkorea.go.kr"},
+      {"dispositif": "Stipendium Hungaricum (Hongrie)", "couverture": "Frais + stipende + aide logement ; aucune exigence d'expérience pro", "eligibilite": "Colombie partenaire, quota récemment doublé 🟡 ; pas de clause de retour signalée — repli financé réaliste (BME/ELTE)", "verdict": "jouable", "deadline": "~mi-jan. 2027 pour sept. 2027 🟡 [2026]", "badge": "🟡", "url": "https://stipendiumhungaricum.hu/country/colombia/"},
+      {"dispositif": "SI — SISGP (Suède, Global Professionals)", "couverture": "Master Suède tout compris", "eligibilite": "3 000 h d'expérience exigées pour la Colombie (barre plus haute que Chevening) — probablement court en heures", "verdict": "partiel", "deadline": "⚫ cycle 2027 — vérifier si.se", "badge": "⚫", "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/"},
+      {"dispositif": "SI — Pioneering Women in STEM", "couverture": "—", "eligibilite": "Colombie ABSENTE de la liste 2026/27 🟡", "verdict": "bloqué", "deadline": "—", "badge": "🟡", "url": "https://si.se/en/apply/scholarships/pioneeringwomeninstem/"},
+      {"dispositif": "KTH Scholarship (Suède)", "couverture": "Frais seulement, PAS la vie (~930 €/mois SEK 10 656 à prouver en plus) 🟡", "eligibilite": "Ouverte non-UE ; reste ~11 k€/an de vie", "verdict": "partiel", "deadline": "⚫ vérifier kth.se", "badge": "⚫", "url": "https://www.kth.se/en/studies/master/fees-funding"},
+      {"dispositif": "ANITI (Toulouse, IA)", "couverture": "Bourses M1/M2 D3S, toutes nationalités", "eligibilite": "OK si admise TSE D3S — complément", "verdict": "jouable", "deadline": "⚫ vérifier tse-fr.eu (403)", "badge": "⚫", "url": "https://www.tse-fr.eu"},
+      {"dispositif": "UC3M département + Santander", "couverture": "5 waivers matrícula non-UE + stipende ≈830 €/mois + 1 Santander (matrícula + 10 000 €) 🟡", "eligibilite": "OK si admise UC3M — complément", "verdict": "jouable", "deadline": "avec la candidature UC3M ⚫", "badge": "⚫", "url": "https://www.uc3m.es/master/economic-analysis"},
+      {"dispositif": "BSE waivers", "couverture": "25/50/75/100 % + bourses complètes avec stipende ; ~550 k€/an d'aides 🟡", "eligibilite": "OK — candidater avant le 15 jan. 2027", "verdict": "jouable", "deadline": "15 jan. 2027 🟢 (bse.eu)", "badge": "🟢", "url": "https://bse.eu/masters-degrees/admissions"},
+      {"dispositif": "Exemption UdeM + TA/RA (Québec)", "couverture": "Réduction automatique des frais internationaux + assistanats", "eligibilite": "Automatique si admise ; PGWP 3 ans en aval 🟡", "verdict": "jouable", "deadline": "avec l'admission (~1er fév. 2027 ⚫)", "badge": "⚫", "url": "https://admission.umontreal.ca/bourses-pour-etudiants-internationaux/"},
+      {"dispositif": "Labex PRIMES (ID3D Lyon 1)", "couverture": "Bourse d'excellence, candidatures internationales", "eligibilite": "OK si candidate ID3D — complément", "verdict": "jouable", "deadline": "⚫ vérifier", "badge": "⚫", "url": "http://master-info.univ-lyon1.fr/ID3D/"},
+      {"dispositif": "la Caixa INPhINIT", "couverture": "Doctorat seulement (ES/PT, ~60/an)", "eligibilite": "Pas pour un master 2027 — plan doctoral 2028+", "verdict": "bloqué", "deadline": "— 🟡", "badge": "🟡", "url": "https://fundacionlacaixa.org/es/becas-doctorado-inphinit-faqs"},
+      {"dispositif": "Route RA/predoc payé ou PhD financé direct", "couverture": "Salaire (RA Europe : CEMFI, Banco de España, BSE/CREI, EURAXESS) ou full funding (PhD US : waiver + stipend)", "eligibilite": "Très crédible : CS + multi-agents en prod + étude publiée ; zéro risque de frais ; compatible « rester dehors »", "verdict": "jouable", "deadline": "PhD US ~déc. 2026 ; RA au fil de l'eau 🟡 (vérifier automne 2026)", "badge": "🟡", "url": "https://predoc.org"}
+    ],
+    "hybrides": [
+      {"nom": "Cogmaster (ENS-PSL/EHESS)", "ou": "Paris", "pourquoi": "Sciences cognitives en anglais, ouvert aux profils info/ingénierie ; meilleure passerelle ④ ; frais nationaux ; 15 jan.-24 fév. (patron 2026)", "badge": "🟡", "url": "https://cogmaster.ens.psl.eu/en/cogmaster-admissions-13156"},
+      {"nom": "ID3D — Image, Développement et Technologie 3D (Lyon 1)", "ou": "Lyon", "pourquoi": "LA priorité ② en master public français (3D, synthèse d'images, jeux) ; bourse Labex PRIMES ; Lyon = sa ville INSA", "badge": "🟡", "url": "http://master-info.univ-lyon1.fr/ID3D/"},
+      {"nom": "UCL CASA — MSc Urban Spatial Science", "ou": "Londres", "pourquoi": "LE labo d'urban analytics ; continuité parfaite du mémoire parcs ; frais overseas ⚫ ; dépend de Chevening", "badge": "⚫", "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/urban-spatial-science-msc"},
+      {"nom": "AMS MADE (TU Delft + Wageningen)", "ou": "Amsterdam", "pourquoi": "Living-lab urbain ; ~22 290 €/an (agrégateur ⚫ vérifier)", "badge": "🟡", "url": "https://www.ams-institute.org/education/msc-metropolitan-analysis-design-and-engineering/"},
+      {"nom": "Utrecht — MSc Game and Media Technology", "ou": "Utrecht", "pourquoi": "Games/graphics/motion = fit mocap+Blender ; 25 306 € (2026-27, officiel) 🟡 ; bourses rares", "badge": "🟡", "url": "https://www.uu.nl/masters/en/game-and-media-technology"},
+      {"nom": "ITU Copenhagen — MSc Games", "ou": "Copenhague", "pourquoi": "Center for Computer Games Research ; ~DKK 50 000/semestre (~6 700 €) 🟡 ; bourses danoises très limitées", "badge": "🟡", "url": "https://en.itu.dk/Programmes/MSc-Programmes/Games"},
+      {"nom": "Twente — MSc Interaction Technology", "ou": "Enschede", "pourquoi": "HCI+IA+accessibilité ; 🔴 frais contradictoires 17 k€–21,7 k€ — vérifier ; bourse UTS existe", "badge": "🔴", "url": "https://www.utwente.nl/en/education/master/programmes/interaction-technology/finance/"},
+      {"nom": "KTH — MSc Interactive Media Technology", "ou": "Stockholm", "pourquoi": "Piste seulement ; KTH Scholarship = frais sans la vie", "badge": "⚫", "url": "https://www.kth.se"},
+      {"nom": "UPM — Máster City Sciences", "ou": "Madrid", "pourquoi": "L'hybride hispanophone le plus aligné parcs+tech ; idioma/prix/deadline ⚫", "badge": "⚫", "url": "http://www.citysciences.com/"},
+      {"nom": "Máster Ciudades Inteligentes y Sostenibles (ABERTIS)", "ou": "Espagne", "pourquoi": "Listé becable Fundación Carolina — croisement bourse+domaine de valeur maximale ; université/édition 2027-28 ⚫", "badge": "🟡", "url": "https://gestion.fundacioncarolina.es/programas/6485"},
+      {"nom": "SMACCs / Copernicus / Cartography / IMLEX", "ou": "multi-UE", "pourquoi": "Même terrain hybride AVEC bourse EMJM → stratégiquement supérieurs à tout hybride autofinancé sauf si Chevening/Carolina tombe", "badge": "🟡", "url": "https://www.smaccs.eu/"},
+      {"nom": "Compléments de second rang", "ou": "France/Espagne", "pourquoi": "Humanités numériques (Paris 8/Tours/UPHF) ; Caen IA-santé ; UOC Ciudad y Urbanismo online — ⚠️ ne donne NI visa NI sortie de Colombie", "badge": "🟡", "url": "https://www.uoc.edu"}
+    ],
+    "optionsNonEnvisagees": [
+      {"nom": "Route RA/predoc payé", "description": "CEMFI, Banco de España, BSE/CREI, EURAXESS, predoc.org : on la PAIE pour entrer dans l'écosystème, master/PhD financé ensuite. Porte réelle pour un profil qui code ; convocatorias 2027 ⚫."},
+      {"nom": "PhD financé direct (US)", "description": "HCI/urban computing : tuition waiver + stipend, GRE souvent optionnel, deadlines ~déc. 2026. Crédible avec CS + multi-agents en prod + étude publiée ; zéro frais ; compatible « rester dehors »."},
+      {"nom": "Stipendium Hungaricum", "description": "Le repli financé le plus accessible : pas d'expérience exigée, quota colombien doublé 🟡. BME/ELTE (CS, sciences cognitives)."},
+      {"nom": "MS URBANTIC (EIVP) et Master Génie urbain (Univ. Gustave Eiffel)", "description": "Ville numérique — URBANTIC cher et hors Eiffel ⚫ ; Gustave Eiffel = diplôme national, bourse Eiffel possible."},
+      {"nom": "Doble titulación Uniandes–INSA Lyon", "description": "Diplôme d'Ingénieur (grado+máster) — seulement si encore matriculada : fenêtre qui se ferme avec le diplôme 2026. Vérifier IMMÉDIATEMENT auprès de l'oficina de internacionalización."},
+      {"nom": "Ergonomie / HCI francophone (CNAM, Paris-Saclay Interaction)", "description": "Croiserait danse/biomécanique + design d'interaction — non instruit, à ouvrir en phase suivante ⚫."},
+      {"nom": "la Caixa INPhINIT", "description": "Doctorat seulement (ES/PT, ~60/an) — pertinent pour un plan doctoral 2028+, pas pour le master 2027."},
+      {"nom": "Atout INSA Lyon réutilisable", "description": "Le semestre d'échange = preuve interne de réussite dans le système INSA → lettres d'enseignants INSA + masters lyonnais (ID3D). Statut Alumni INSA Lyon ⚫."}
+    ],
+    "retroplanning": [
+      {"periode": "Juil.-août 2026", "jalons": [
+        "Calculer les heures Chevening (calculateur officiel) + vérifier clause de retour 🟡 — chevening.org/scholarships/who-can-apply/work-experience/",
+        "Vérifier MEXT à l'ambassade du Japon — fenêtre 2027 peut-être déjà fermée ⚫ — colombia.emb-japan.go.jp",
+        "Choix final des programmes cibles 🟡"
+      ]},
+      {"periode": "⚠️ 4 août – 6 oct. 2026", "jalons": [
+        "Fenêtre Chevening 🟡 [2026] — si ≥2 800 h ET si « rester dehors » survit à la clause de retour — chevening.org/scholarships/application-timeline/"
+      ]},
+      {"periode": "Août-sept. 2026", "jalons": [
+        "Diplôme + relevés officiels ; légalisation MinEducación en ligne PUIS apostille Cancillería 🟢 (24 h-3 j, ~COP 31-36 k/doc 🔴) — cancilleria.gov.co",
+        "Traductions certifiées FR/DE/NL — rien pour l'Espagne 🟡"
+      ]},
+      {"periode": "Sept. 2026", "jalons": [
+        "IELTS Academic 🟡 — un test de sept. 2026 (validité 2 ans) couvre toutes les candidatures 2027 ET la rentrée — ielts.org"
+      ]},
+      {"periode": "Sept.-oct. 2026", "jalons": [
+        "Contacter les scolarités françaises pour Eiffel (nomination ? deadline interne ?) 🟡",
+        "Verrouiller 2-3 recommandataires (dir. mémoire + employeur + enseignant INSA) 🟡",
+        "Lettre de motivation maître ; portfolio 3D/dev (imaging/media) ; prépa GRE si CEMFI 🟡"
+      ]},
+      {"periode": "⚠️ Oct.-déc. 2026", "jalons": [
+        "Deadlines INTERNES Eiffel des établissements 🟡 [patrons 2025 : Assas 22 oct.-12 nov. ; ENS Lyon 22 nov.] — la vraie deadline, une tentative à vie",
+        "Ouverture compte Études en France ; ouverture des candidatures EMJM 🟡"
+      ]},
+      {"periode": "Nov. 2026", "jalons": [
+        "Compte uni-assist + demande VPD (4-6 semaines) pour Bonn/Kiel 🟡 — uni-assist.de",
+        "15 nov. : ouverture rolling UAB IDEA 🟡 ; ~15 nov.-20 déc. : ronde bourse EMAI 🟡",
+        "Re-vérifier statut bourses QEM 2027-29 ⚫ — master-economics-qem.eu"
+      ]},
+      {"periode": "1er déc. 2026", "jalons": [
+        "Ouverture BSE 2027-28 🟢 (confirmé officiel) — bse.eu/masters-degrees/admissions"
+      ]},
+      {"periode": "Déc. 2026", "jalons": [
+        "Deadlines PhD US (si route directe) 🟡 ; ~20 déc. : clôture bourse EMAI 🟡"
+      ]},
+      {"periode": "⚠️ Jan. 2027", "jalons": [
+        "~8 jan. : transmission Eiffel à Campus France 🟡 (patron 2026) ; ~9 jan. : IMIM R1 🟡",
+        "15 jan. : financement BSE 🟢 + Bonn BGSE 🟡 + Stipendium Hungaricum ~mi-jan. 🟡",
+        "~18 jan. : Copernicus CDE 🟡 ; ~21 jan. : IMLEX (ronde unique) 🟡 ; ~31 jan. : CEMFI financement 🟡",
+        "~12 jan. : ouverture Fundación Carolina 🟡"
+      ]},
+      {"periode": "⚠️ Jan.-mars 2027", "jalons": [
+        "Masters France : PSE (15 jan.-12 mars), Dauphine (15 jan.-24 fév.), Cogmaster (15 jan.-24 fév.), TSE (~fin fév.) 🟡 [patrons 2026]",
+        "Carolina ferme ~2 mars 🟡 ; Colfuturo ferme ~4 mars 🟡 ; GKS fév.-mars 🟡 ; UdeM ~1er fév. ⚫"
+      ]},
+      {"periode": "Mars 2027", "jalons": [
+        "~15 mars : Cartography (bourse) 🟡 ; SMACCs 🟡 ; ~30 mars : résultats Eiffel 🟡"
+      ]},
+      {"periode": "Mars-juin 2027", "jalons": [
+        "Préinscription UA Alicante 🟡 ; NL non-UE (1 fév.-1 avril) 🟡 ; rolling IDEA jusqu'au 30 juin 🟡",
+        "BSE clôture finale 8 juin 🟢 ; Kiel via uni-assist ~mai-juil. (filet de sécurité tardif) 🟡 ; ~18 mai : résultats Colfuturo 🟡"
+      ]},
+      {"periode": "Avril-mai 2027", "jalons": [
+        "Réponses d'admission ; arbitrage final : bourse sans retour > bourse avec retour > sans frais > dette"
+      ]},
+      {"periode": "Mai-juin 2027", "jalons": [
+        "France : entretien pédagogique Campus France Bogotá + attestation 🟡 — colombie.campusfrance.org",
+        "Espagne : dossier visa BLS Bogotá (~30 jours ; visa gratuit pour Colombiens + tasa BLS ~COP 401 600) 🟡"
+      ]},
+      {"periode": "Juin-juil. 2027", "jalons": [
+        "Visa France VLS-TS via VFS (3-6 semaines, commencer ≥2 mois avant) ; solvabilité 878 €/mois dès août 2026 🔴",
+        "Allemagne : Sperrkonto 11 904 € 🟡 ; NL : l'université gère MVV/VVR 🟡 ; logement (DSE/CROUS si boursière France)"
+      ]},
+      {"periode": "Août 2027", "jalons": [
+        "Départ ; France : CVEC (105 € en 2025-26 🟡, exonérée pour boursières du gouvernement français — vérifier ⚫)",
+        "Validation VLS-TS en ligne sous 3 mois après l'arrivée 🟡 — service-public.gouv.fr"
+      ]},
+      {"periode": "Sept. 2027", "jalons": [
+        "Rentrée"
+      ]}
+    ],
+    "logistique": [
+      "Apostille : trámite 100 % en ligne, 24/7, depuis n'importe quel pays 🟢 (cancilleria.gov.co) ; délai 24 h-3 jours ouvrés.",
+      "Coût apostille/document 🔴 : ~COP 31 000 (presse) vs ≈COP 36 000 (page officielle) [2026] — budgéter 36 k.",
+      "Diplômes du supérieur : légalisation en ligne MinEducación AVANT l'apostille 🟡 ; apostiller diplôme + acta + notes dès la graduación 2026.",
+      "Homologation pour étudier : Espagne NON (titre apostillé suffit) ; France NON (l'université décide) ; Allemagne : VPD uni-assist 4-6 semaines (demander nov. 2026) ; NL : évaluation Nuffic interne 🟡 [2026].",
+      "Traductions : Espagne = AUCUNE (avantage concret) ; France/Allemagne/PB = traduction jurée si l'université n'accepte pas espagnol/anglais 🟡.",
+      "Solvabilité France 🔴 : 615 €/mois jusqu'au 31/07/2026 puis 878 €/mois dès le 01/08/2026 (~10 500 €/an) — budgéter 878 pour un visa 2027.",
+      "Espagne : 100 % IPREM = 600 €/mois (~7 200 €/an) 🟡 ; visa GRATUIT pour Colombiens + tasa BLS ≈COP 401 600 ; ~30 jours (BLS Bogotá).",
+      "Allemagne : Sperrkonto 11 904 €/an 🟡 (ou Verpflichtungserklärung) ; visa ~75 € ⚫ ; délais Bogotá ⚫ — bogota.diplo.de.",
+      "Pays-Bas ≈13 000 €/an 🟡 (l'université dépose MVV+VVR à l'IND) ; Suède SEK 10 656/mois ≈930 €/mois 🟡.",
+      "France = pays à procédure CEF : Études en France OBLIGATOIRE pour le visa, même en admission directe ; entretien à Bogotá ; coût visa 🔴 50/99/150 € — budgéter 99 €.",
+      "Décret du 19 mai 2026 : frais différenciés (3 879 €/an) réels par défaut en France 🟡 [FR seule] → Eiffel ou exonération quasi indispensable."
+    ]
+  },
+  "contradictions": [
+    {"sujet": "Éligibilité Chevening diplômée 2026", "valeurA": "Phases 2-3 : « bloquée » (2 ans d'expérience post-diplôme requis)", "valeurB": "Passe EN : 2 800 h, stages/temps partiel/freelance comptent, 15 périodes cumulables → plausible", "lecture": "Ni bloquée ni acquise : calculer ses heures en août 2026 + FAQ cycle 2027 ; clause de retour 2 ans ⚫ potentiellement rédhibitoire."},
+    {"sujet": "Montants mensuels Fundación Carolina", "valeurA": "Fiches publiques 2026 : 550/600/900 €/mois selon programme (passe ES)", "valeurB": "Valeurs des phases antérieures non répliquées", "lecture": "Le montant est PAR PROGRAMME — vérifier la ficha du programme visé dans les bases 2027-28 (jan. 2027)."},
+    {"sujet": "Colfuturo : condonation 25 % + retour 36 mois", "valeurA": "Passe ES : condonation max 25 %, retour + 36 mois, sinon 100 % de dette", "valeurB": "Passe EN : « forgiveness % changed in 2026 — read the PDF » ; passe FR : silence", "lecture": "Concordance de fond : 🟢 pour 50 000 USD, 🟡 pour 25 %/36 mois. Lire le reglamento PDF avant toute signature."},
+    {"sujet": "Solvabilité visa France", "valeurA": "Passe FR : 615 €/mois (sans borne de date)", "valeurB": "Passe ES : 615 € jusqu'au 31/07/2026 puis 878 €/mois dès le 01/08/2026", "lecture": "Les deux vraies à des dates différentes. Pour un visa 2027 : budgéter 878 €/mois — vérifier france-visas.gouv.fr."},
+    {"sujet": "Calendrier Eiffel", "valeurA": "Passe FR : internes oct.-déc. 2026 → Campus France ~8 jan. → résultats ~30 mars 2027", "valeurB": "Aucune autre passe ne couvre Eiffel", "lecture": "Pas de contradiction mais mono-source → 🟡 partout ; confirmer la fiche cycle 2027 à l'automne 2026."},
+    {"sujet": "Coût visa étudiant France", "valeurA": "50 € via Études en France (tarif réduit)", "valeurB": "99 € plein tarif VLS-TS ; jusqu'à 150 € selon sources", "lecture": "Vérifier france-visas.gouv.fr ; budgéter 99 €."},
+    {"sujet": "Coût apostille/document", "valeurA": "~COP 31 000 (passe EN, presse 2026)", "valeurB": "≈COP 36 000 (passe ES, page officielle Cancillería)", "lecture": "Retenir 36 000 (source officielle) ; impact budgétaire négligeable."},
+    {"sujet": "Frais Twente Interaction Technology", "valeurA": "17 000 €", "valeurB": "21 700 €", "lecture": "Vérifier utwente.nl/finance."},
+    {"sujet": "Frais Dauphine Quantitative Economics", "valeurA": "510 € (régime national)", "valeurB": "jusqu'à 22 000 € totaux (régime établissement, agrégateur 2025)", "lecture": "Dépend du diplôme (national vs établissement) — vérifier dauphine.psl.eu."},
+    {"sujet": "Allocation Eiffel", "valeurA": "1 181 €/mois (réglementation en vigueur)", "valeurB": "1 200 €/mois « à compter de janvier 2026 »", "lecture": "Divergence interne passe FR ; vérifier la réglementation 2027 (PDF campusfrance.org)."}
+  ],
+  "nonVerifies": [
+    "Réglementation Eiffel 2027 (montant exact, âge, durée, logement) — https://www.campusfrance.org/fr/le-programme-de-bourses-france-excellence-eiffel",
+    "Texte exact du décret frais différenciés du 19 mai 2026 (plafonds 30/25/20 %) — https://www.legifrance.gouv.fr",
+    "Obligation de retour Chevening (2 ans) + point exact des heures pré/post-diplôme — https://www.chevening.org/faqs/ (dès le 4 août 2026)",
+    "Limite d'âge Fundación Carolina + clause exacte d'obligation de retour 2027-28 — https://www.fundacioncarolina.es/formacion/preguntas-frecuentes/",
+    "Taux d'intérêt et période de grâce Colfuturo — https://sites.colfuturo.org/links/Convocatoria_2026/20260205reglamentopcb2026vf1.pdf",
+    "Bourses QEM cohorte 2027-29 — https://master-economics-qem.eu (nov. 2026)",
+    "Deadline et consortium définitif DEAI — https://dtim.upc.edu / ULB",
+    "Existence/financement GameToLearn et EDISS 2027 — https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+    "Fenêtre MEXT pour rentrée 2027 (peut-être déjà fermée) — https://www.colombia.emb-japan.go.jp/",
+    "Frais non-UE UC3M + deadline des rondes — https://www.uc3m.es/master/economic-analysis",
+    "Tasas exactes + langue du máster UA Economía con Ciencia de Datos — https://web.ua.es/es/masteres/eco-dat-sci/",
+    "GRE obligatoire ou non à BSE/UC3M/UAB IDEA — pages admissions respectives",
+    "Résidence post-études Espagne (12-24 mois, Ley 14/2013 réformée) — https://extranjeria.inclusion.gob.es",
+    "CVEC : exonération pour boursières du gouvernement français — https://cvec.etudiant.gouv.fr"
+  ]
+}
