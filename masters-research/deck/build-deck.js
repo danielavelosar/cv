@@ -41,7 +41,12 @@ pres.defineSlideMaster({
 });
 
 // ---------- helpers ----------
-const clip = (s, n) => (s && s.length > n ? s.slice(0, n - 1).trimEnd() + '…' : (s || ''));
+const clip = (s, n) => {
+  let t = (s || '').replace(/\*/g, '');
+  return t.length > n ? t.slice(0, n - 1).trimEnd() + '…' : t;
+};
+// évite les badges dupliqués quand le texte du champ contient déjà son badge inline
+const wB = (badge, text) => (/[\u{1F7E2}\u{1F7E1}\u{1F534}⚫]/u.test(text || '') ? (text || '') : `${badge || ''} ${text || ''}`.trim());
 
 function slideLight(title, kicker) {
   const s = pres.addSlide({ masterName: 'LIGHT' });
@@ -183,11 +188,11 @@ DOMAINS.forEach((d, di) => {
       const base = [
         clip(`${p.univ} — ${p.intitule}`, 72) + (p.retenu ? '  ★' : ''),
         clip(p.pays, 14),
-        clip(`${p.fraisBadge} ${p.frais}`, 46),
-        clip(`${p.deadlineBadge} ${p.deadline}`, 46),
+        clip(wB(p.fraisBadge, p.frais), 46),
+        clip(wB(p.deadlineBadge, p.deadline), 46),
       ];
       if (hasPf) base.push(clip(p.portfolio || '⚫', 20));
-      base.push(clip(`${p.finBadge} ${p.financement}`, 48));
+      base.push(clip(wB(p.finBadge, p.financement), 48));
       return base;
     });
     chunk(rows, 7).forEach((part, pi, all) => {
@@ -221,7 +226,7 @@ slideDark('Transversal', 'Comparatif global · programmes hybrides · financemen
   const rows = [];
   DOMAINS.forEach(d => d.programmes.filter(p => p.retenu).forEach(p => rows.push([
     clip(`${p.univ} — ${p.intitule}`, 66), clip(p.pays, 14), clip(d.nom.split('/')[0].split('(')[0], 26),
-    clip(`${p.fraisBadge} ${p.frais}`, 40), clip(`${p.deadlineBadge} ${p.deadline}`, 40), clip(`${p.finBadge} ${p.financement}`, 42),
+    clip(wB(p.fraisBadge, p.frais), 40), clip(wB(p.deadlineBadge, p.deadline), 40), clip(wB(p.finBadge, p.financement), 42),
   ])));
   chunk(rows, 7).forEach((part, pi, all) => {
     const s = slideLight(`Tableau comparatif global — programmes retenus (${pi + 1}/${all.length})`, 'Transversal');
@@ -232,7 +237,7 @@ slideDark('Transversal', 'Comparatif global · programmes hybrides · financemen
 {
   const s = slideLight('Programmes hybrides — sa meilleure zone', 'Transversal');
   s.addText('Les programmes qui croisent plusieurs de ses domaines sont ceux où son profil atypique (code + 3D + mouvement + accessibilité) cesse d’être « dispersé » pour devenir l’argument central.', { x: 0.55, y: 1.5, w: 12.2, h: 0.65, fontSize: 12.5, italic: true, color: C.muted, fontFace: F.body, margin: 0 });
-  const rows = TR.hybrides.map(h => [clip(h.nom, 44), clip(h.ou, 22), clip(`${h.badge || ''} ${h.pourquoi}`, 88), clip(h.url, 46)]);
+  const rows = TR.hybrides.map(h => [clip(h.nom, 44), clip(h.ou, 22), clip(wB(h.badge, h.pourquoi), 88), clip(h.url, 46)]);
   table(s, ['Programme', 'Où', 'Pourquoi c’est sa zone', 'URL'], rows.slice(0, 8), [3.1, 1.6, 4.9, 2.6], { size: 9.5, y: 2.25 });
 }
 // EMJM
@@ -255,7 +260,7 @@ slideDark('Transversal', 'Comparatif global · programmes hybrides · financemen
   const isCol = f => /colfuturo|icetex|carolina|minciencias|cancillería|cancilleria|aecid/i.test(f.dispositif);
   const colRows = fin.filter(isCol);
   const others = fin.filter(f => !isCol(f));
-  const mk = f => [clip(f.dispositif, 30), clip(f.couverture, 44), clip(f.eligibilite, 52), clip(`${f.badge || ''} ${f.deadline}`, 34), clip(f.verdict, 16)];
+  const mk = f => [clip(f.dispositif, 30), clip(f.couverture, 44), clip(f.eligibilite, 52), clip(wB(f.badge, f.deadline), 34), clip(f.verdict, 16)];
   chunk(colRows.map(mk), 7).forEach((part, pi, all) => {
     const s = slideLight(`Financement colombien & hispanophone${all.length > 1 ? ` (${pi + 1}/${all.length})` : ''}`, 'Transversal · ce que seul l’espagnol a révélé');
     table(s, ['Dispositif', 'Couverture', 'Éligibilité pour elle', 'Deadline 2027', 'Verdict'], part, [1.9, 3.0, 3.4, 2.3, 1.6], { size: 9.5, y: 1.6 });
