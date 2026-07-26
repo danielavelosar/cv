@@ -1,0 +1,451 @@
+{
+  "phase": 2,
+  "titre": "Phase 2 — Science + code + impact : IA santé · Neuro/BCI · Bioinformatique",
+  "syntheseDossier": [
+    "~29 programmes dédupliqués sur 3 domaines, dont ~10 réellement prometteurs sous contrainte « financement décisif + diplômée 2026 ».",
+    "Faisabilité : IA santé = le plus accessible pour une ingénieure des systèmes ; neuro comp = très accessible côté computationnel.",
+    "Bioinformatique = le plus employable MAIS le plus risqué à l'admission : Tübingen dit « ingénierie non éligible » 🔴, KTH/Copenhague attendent des crédits bio.",
+    "Alerte Chevening (UK) : ≥2 ans / 2 800 h d'expérience exigés 🟡 → diplômée 2026 probablement inéligible pour 2027.",
+    "Alerte Fulbright Colombie : diplôme + ≥1 an d'expérience, appel clos le 15 mai 2026 🟡 → cycle 2027 pratiquement fermé.",
+    "Routes financées sans barrière d'expérience : EMJM 1 400 €/mois 🟢, Allemagne gratuite + DAAD, MEXT/GKS, Carolina (femmes STEM), Eiffel 1 200 €/mois 🟡.",
+    "Aucun programme trouvé par 2 passes (géographies disjointes) → faits de programme plafonnés à 🟡 ; toute donnée à relire à l'URL officielle.",
+    "Alertes de cycle : MAIA biennal → pas de rentrée 2027 🔴 ; NeuroData EMJM dernière édition 2026-2027 🟡 ; Colfuturo condonation tombée à 25 % dès 2026 🟡."
+  ],
+  "domaines": [
+    {
+      "nom": "IA en médecine et santé numérique",
+      "definition": [
+        "Application de l'IA/ML aux données cliniques, de population et d'imagerie médicale.",
+        "Masters conçus pour profils quantitatifs ; aucun n'exige de diplôme médical.",
+        "Cœur : épidémiologie, statistiques, ML, déploiement (MLOps santé), équité, réglementation.",
+        "Le plus accessible pour une ingénieure des systèmes sans background bio/médical."
+      ],
+      "alignement": [
+        {"priorite": "① Impact concret", "score": 3, "note": "Santé publique = données de population ; angle handicap/accessibilité des parcs de Kennedy naturel."},
+        {"priorite": "② Création visuelle", "score": 2, "note": "UI clinicien/patient orientée accessibilité + dataviz, mais peu de 3D/mocap."},
+        {"priorite": "③ Problèmes techniques", "score": 3, "note": "MLOps, pipelines robustes FastAPI/MongoDB, industrialisation rare chez les cliniciens."},
+        {"priorite": "④ Cerveau & monde", "score": 1, "note": "Santé et monde réel, mais pas de lien direct au cerveau."}
+      ],
+      "quotidienMaster": [
+        "Cours d'épidémiologie, biostatistiques, ML clinique, informatique de santé.",
+        "Études de cas réelles (ex. Bordeaux Population Health) et projets sur cohortes.",
+        "Stage de 2-6 mois en labo ou structure de santé.",
+        "Mise à niveau bio/médicale légère selon dossier et parcours."
+      ],
+      "quotidienPro": [
+        "Data scientist / ingénieur ML en santé, hôpital, medtech ou pharma.",
+        "Construire et déployer des modèles de prédiction de risque et d'aide à la décision.",
+        "Travailler sous contraintes RGPD santé, marquage CE, IA Act.",
+        "Collaborer avec cliniciens, épidémiologistes, équipes produit."
+      ],
+      "marche2026": [
+        "Demande soutenue en IA/data santé (medtech, pharma, hôpitaux) 🟡 (réf. 2026).",
+        "Rareté des profils sachant industrialiser les modèles → avantage différenciant.",
+        "Vérifier les grilles salariales à panda-int.com / npj Digital Medicine (secondaire)."
+      ],
+      "biblio": [
+        "Deep Medicine — Topol (2019, accessible).",
+        "Artificial Intelligence in Healthcare — Bohr & Memarzadeh (2020).",
+        "Machine Learning for Healthcare — MIT 6.S897 / HST.956 (avancé).",
+        "Clinical Prediction Models — Steyerberg (2019).",
+        "Biomedical Informatics — Shortliffe & Cimino (2021).",
+        "Revues : Nature Medicine, The Lancet Digital Health, npj Digital Medicine ; conf. CHIL, MLHC, MICCAI."
+      ],
+      "parcours20h": [
+        "4-5 h : Topol / « AI for Medicine » (DeepLearning.AI) en intro.",
+        "5-6 h : MIT 6.S897 lectures 1-5 (OCW).",
+        "5-6 h : reproduire un notebook de prédiction de risque sur MIMIC/eICU servi en FastAPI.",
+        "4-5 h : 3 papers npj Digital Medicine (déploiement + équité) + éthique/RGPD + IA Act."
+      ],
+      "programmes": [
+        {"univ": "Université Paris Cité (+ Arts et Métiers)", "intitule": "Master Ingénierie de la santé — parcours eHealth", "pays": "France", "frais": "droits différenciés nat. ~3 770–3 941 €/an", "fraisBadge": "🔴", "deadline": "non publiée — Mon Master ~févr.–mars 2027", "deadlineBadge": "⚫", "financement": "Eiffel via établissement ; chaire IA en Santé", "finBadge": "🟡", "url": "https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/ingenierie-de-la-sante-K2NDJ7KW/master-ingenierie-de-la-sante-parcours-innovation-en-sante-numerique-innovation-in-digital-health-ehealth-M346RZMQ.html", "retenu": true, "verdict": "Bon fit CS, écosystème IA-santé fort, éligible Eiffel ; frais + mise à niveau bio à confirmer."},
+        {"univ": "IP Paris", "intitule": "Master Digital Skills for Health Transformation (DS4Health)", "pays": "France", "frais": "montant PDF officiel non extrait", "fraisBadge": "⚫", "deadline": "non publiée (procédure IP Paris)", "deadlineBadge": "⚫", "financement": "bourses IP Paris ; Eiffel via établissement", "finBadge": "🟡", "url": "https://www.ip-paris.fr/en/education/masters/health-engineering-program/master-year-1-digital-skills-health-transformation-ds4health", "retenu": true, "verdict": "Fit CS ; frais et deadline à extraire du PDF officiel avant décision."},
+        {"univ": "Université de Bordeaux — ISPED", "intitule": "M2 Public Health Data Science (Digital Public Health)", "pays": "France", "frais": "~3 941 €/an (réf. 2025-26)", "fraisBadge": "🟡", "deadline": "non trouvée", "deadlineBadge": "⚫", "financement": "bourses programme DPH ; Eiffel via établissement", "finBadge": "🟡", "url": "https://www.isped.u-bordeaux.fr/Graduate-Programs/Digital-Public-Health/Masters-Program", "retenu": true, "verdict": "Très aligné impact + data science + passerelle recherche ; angle accessibilité naturel."},
+        {"univ": "UCL", "intitule": "MSc Health Data Science", "pays": "UK", "frais": "£32 100/an (réf. ~2025-26)", "fraisBadge": "🟡", "deadline": "non trouvée (au fil de l'eau)", "deadlineBadge": "⚫", "financement": "Chevening (si expérience) ; bourses internes UCL", "finBadge": "🟡", "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/health-data-science-msc", "retenu": true, "verdict": "Fit CS fort ; barrière = frais élevés + Chevening exige de l'expérience."},
+        {"univ": "Imperial College London", "intitule": "MSc Health Data Analytics and Machine Learning", "pays": "UK", "frais": "£45 000/an (réf. ~2025-26)", "fraisBadge": "🟡", "deadline": "non trouvée", "deadlineBadge": "⚫", "financement": "Chevening (si expérience) ; internes", "finBadge": "🟡", "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/health-data-analytics/", "retenu": false, "verdict": "Borderline : CS/ingénierie non listé aux prérequis + frais très élevés → écarter/vérifier."},
+        {"univ": "Consortium MAIA (uB Dijon / Cassino / Gérone)", "intitule": "EMJM Medical Imaging and Applications", "pays": "FR/IT/ES", "frais": "~4 500 €/an (couvert par bourse EM)", "fraisBadge": "🟡", "deadline": "rentrée 2027 probablement inexistante (biennal)", "deadlineBadge": "🔴", "financement": "bourse EM complète 1 400 €/mois", "finBadge": "🟡", "url": "https://maiamaster.udg.edu/", "retenu": false, "verdict": "Fit CS idéal + bourse complète MAIS biennal 2026/2028 → pas de rentrée 2027."},
+        {"univ": "Consortium EMMaH", "intitule": "EMJM Medical technology and Healthcare business", "pays": "FR/PT/DE (+Taïwan)", "frais": "couvert par bourse EM", "fraisBadge": "⚫", "deadline": "édition sept. 2026 confirmée ; cohorte 2027 à vérifier", "deadlineBadge": "⚫", "financement": "bourse EM complète 1 400 €/mois", "finBadge": "🟡", "url": "https://erasmus-plus.ec.europa.eu/", "retenu": false, "verdict": "Financement sans barrière d'expérience ; vérifier entrée CS + cohorte 2027."},
+        {"univ": "Consortium EMJM Imaging (Tampere +)", "intitule": "EMJM Imaging (traitement d'images / ML)", "pays": "FI +", "frais": "couvert par bourse EM", "fraisBadge": "⚫", "deadline": "non extraite (403)", "deadlineBadge": "⚫", "financement": "bourse EM complète", "finBadge": "🟡", "url": "https://www.emjm-imaging.eu/", "retenu": false, "verdict": "Fit ML/imagerie + bourse complète ; deadline et cohorte 2027 à confirmer."},
+        {"univ": "NUS", "intitule": "MSc Biomedical Informatics (piste Analytics)", "pays": "Singapour", "frais": "SGD 68 538/an (réf. ~2025-26)", "fraisBadge": "🟡", "deadline": "proj. ~oct. 2026–janv. 2027", "deadlineBadge": "🟡", "financement": "peu de bourses → point faible", "finBadge": "🔴", "url": "https://medicine.nus.edu.sg/dbmi/education-3/msc-in-biomedical-informatics-coursework/", "retenu": false, "verdict": "À écarter : frais élevés + peu de bourses, inadapté à la contrainte financement."},
+        {"univ": "Consortium catalan (URV+UPC+UB+UAB+UGA)", "intitule": "Master interuniversitaire Health Data Science (MHEDAS)", "pays": "Espagne", "frais": "recargo catalan (~102,52 €/crédit UPC)", "fraisBadge": "🟡", "deadline": "non trouvée (via URV)", "deadlineBadge": "⚫", "financement": "Carolina (catalogue ⚫) ; réseau BIB", "finBadge": "🟡", "url": "https://www.urv.cat/en/studies/master/courses/health-data-science/", "retenu": true, "verdict": "Fit data science santé ; croiser au catalogue Carolina pour le financement."},
+        {"univ": "UNIA (US+UGR)", "intitule": "Máster en IA aplicada a Ciencias de la Salud", "pays": "Espagne", "frais": "prix public andalou", "fraisBadge": "⚫", "deadline": "préinscription 8–15 sept. 2026 (pour 2026-27)", "deadlineBadge": "🟡", "financement": "Carolina (catalogue ⚫)", "finBadge": "🟡", "url": "https://www.unia.es", "retenu": true, "verdict": "Coût public bas, fit IA santé ; vérifier calendrier et catalogue Carolina 2027."}
+      ],
+      "fusion": [
+        "Stack FastAPI + MongoDB + multi-agents en production = capacité à déployer, rare chez les profils cliniques.",
+        "Projet : micro-service FastAPI servant un modèle de prédiction de risque sur MIMIC-IV.",
+        "Projet : UI SvelteKit clinicien/patient orientée accessibilité.",
+        "Angle mémoire ★ : « Santé numérique et handicap » — outil d'évaluation d'accessibilité urbaine (parcs de Kennedy, Bogotá)."
+      ],
+      "risque": [
+        "Scénario de regret : miser sur le UK (UCL/Imperial) puis rester bloquée sur Chevening faute des 2 800 h.",
+        "Imperial borderline : CS non listé aux prérequis → rejet possible malgré un dossier fort.",
+        "Frais différenciés France en hausse + exonérations plafonnées à 30 % → ne plus compter sur l'exonération auto.",
+        "Angle accessibilité solide mais dépend d'un labo qui accepte ce sujet de mémoire."
+      ],
+      "annexes": [
+        {"titre": "Université Paris Cité — Master eHealth (France)", "lignes": [
+          "Durée : 2 ans (M1+M2), enseignement en anglais 🟡.",
+          "Pensum : bioingénierie à l'interface biomédical/ingénieur ; stage 2-4 mois M1 + 5 mois M2 🟡.",
+          "Prérequis : Licence scientifique, ouvert à informatique, maths, physique, ingénierie 🟡.",
+          "Frais : droits différenciés non confirmés pour ce parcours ⚫.",
+          "Financement : Eiffel via établissement ; chaire IA en Santé Paris Cité 🟡.",
+          "Deadline 2027 : ⚫ — Mon Master ~févr.–mars ; Études en France oct.–déc.",
+          "Verdict : bon fit CS, écosystème IA-santé fort ; confirmer frais + mise à niveau bio."
+        ]},
+        {"titre": "IP Paris — DS4Health (France)", "lignes": [
+          "Master Digital Skills for Health Transformation, cursus ingénierie de la santé.",
+          "Frais : montant dans PDF officiel non extrait ⚫ (paiement dû ~10 sept.).",
+          "Deadline 2027 : ⚫ (procédure IP Paris).",
+          "Financement : bourses IP Paris ; Eiffel via établissement 🟡.",
+          "Prérequis attendus : profil quantitatif/CS (à confirmer).",
+          "Verdict : fit CS ; extraire frais et calendrier du PDF officiel avant de candidater."
+        ]},
+        {"titre": "Université de Bordeaux — M2 Public Health Data Science (France)", "lignes": [
+          "M2 intégré au programme Digital Public Health, entièrement en anglais 🟡.",
+          "Pensum : épidémiologie, statistiques, informatique, cas réels Bordeaux Population Health.",
+          "Prérequis : orienté data science/stats/CS ; pas de médecine exigée 🟡.",
+          "Frais : ~3 941 €/an (catégorie internationale, réf. 2025-26) 🟡.",
+          "Financement : bourses programme DPH ; Eiffel via établissement 🟡.",
+          "Deadline 2027 : ⚫ non trouvée.",
+          "Verdict : très aligné impact + data science ; angle mémoire accessibilité naturel."
+        ]},
+        {"titre": "UCL — MSc Health Data Science (UK)", "lignes": [
+          "MSc en science des données de santé, cursus quantitatif.",
+          "Frais : £32 100/an (réf. ~2025-26, secondaire) 🟡.",
+          "Deadline : admissions au fil de l'eau, clôture printemps/été ⚫.",
+          "Financement : Chevening (si expérience) ; bourses internes UCL 🟡.",
+          "Prérequis : profil quantitatif/CS accepté.",
+          "Verdict : fit CS fort ; barrière = frais élevés + Chevening exige de l'expérience."
+        ]},
+        {"titre": "MHEDAS — consortium catalan (Espagne)", "lignes": [
+          "Master interuniversitaire Health Data Science (URV+UPC+UB+UAB+UGA).",
+          "Frais : recargo catalan si composante UPC (~102,52 €/crédit) 🟡.",
+          "Deadline 2027 : ⚫ non trouvée (via URV).",
+          "Financement : Carolina (catalogue ⚫) ; réseau BIB 🟡.",
+          "Prérequis : profil data science/CS attendu.",
+          "Verdict : fit data science santé ; à croiser au catalogue Fundación Carolina."
+        ]},
+        {"titre": "UNIA (US+UGR) — Máster IA aplicada a Ciencias de la Salud (Espagne)", "lignes": [
+          "Máster andalou en IA appliquée aux sciences de la santé.",
+          "Frais : prix public andalou (bas) ⚫.",
+          "Deadline : préinscription reportée 8–15 sept. 2026 (pour 2026-27) 🟡.",
+          "Financement : Carolina (catalogue ⚫) 🟡.",
+          "Prérequis : profil technologique/CS attendu.",
+          "Verdict : coût public bas, fit IA santé ; vérifier calendrier et Carolina 2027."
+        ]}
+      ],
+      "biblioComplete": [
+        "Topol, E. — Deep Medicine (2019).",
+        "Bohr & Memarzadeh — Artificial Intelligence in Healthcare (2020).",
+        "MIT 6.S897 / HST.956 — Machine Learning for Healthcare (OCW, avancé).",
+        "Steyerberg, E. — Clinical Prediction Models (2019).",
+        "Shortliffe & Cimino — Biomedical Informatics (2021).",
+        "Revues : Nature Medicine, The Lancet Digital Health, npj Digital Medicine, J. Biomedical Informatics.",
+        "Conférences : CHIL, MLHC/ML4H (NeurIPS), MICCAI.",
+        "MOOC : AI for Medicine (DeepLearning.AI) ; MIT 6.S897 (OCW) ; AI in Healthcare (Stanford/Coursera)."
+      ]
+    },
+    {
+      "nom": "Neurosciences computationnelles et BCI",
+      "definition": [
+        "Modélisation mathématique du fonctionnement neuronal et des interfaces cerveau-machine.",
+        "L'informatique est explicitement une voie d'entrée à NCIA, CNN, BCCN, UPC, UGR.",
+        "Cœur : traitement du signal, ML, dynamique neuronale, décodage EEG, neuro-ingénierie.",
+        "Très accessible côté computationnel ; certains programmes sélectifs (EPFL, ETH)."
+      ],
+      "alignement": [
+        {"priorite": "① Impact concret", "score": 2, "note": "Réhabilitation et accessibilité motrice ; impact réel via neuro-ingénierie du mouvement."},
+        {"priorite": "② Création visuelle", "score": 3, "note": "Mocap Rokoko + Blender = capture/animation du mouvement humain, rare chez les comp-neuro."},
+        {"priorite": "③ Problèmes techniques", "score": 3, "note": "Traitement du signal, ML, décodeur EEG, contrôle moteur : techniques de pointe."},
+        {"priorite": "④ Cerveau & monde", "score": 3, "note": "Cœur du domaine : cerveau + mouvement + monde réel = alignement maximal."}
+      ],
+      "quotidienMaster": [
+        "Cours de neuro comp (dynamique neuronale, codage), ML, traitement du signal.",
+        "UE d'interfaces cerveau-machine (BCI) et compensation des dysfonctions cérébrales.",
+        "Projet encadré + stage recherche de 5-6 mois en labo.",
+        "Mise à niveau neuro possible selon la voie d'entrée (ex. Radboud)."
+      ],
+      "quotidienPro": [
+        "Ingénieur neuro / BCI en labo, medtech, réhabilitation ou recherche.",
+        "Décoder des signaux (EEG/EMG) et concevoir des modèles de contrôle moteur.",
+        "Coupler capture de mouvement et modèles de contrôle pour la rééducation.",
+        "Publier, collaborer avec neuroscientifiques et cliniciens."
+      ],
+      "marche2026": [
+        "Niche recherche + medtech BCI ; débouché data science le plus employable via DATCOM 🟡.",
+        "Profil rare : traitement du signal + ML + biomécanique du mouvement (danse).",
+        "Marché académique surtout ; industrie BCI émergente (secondaire)."
+      ],
+      "biblio": [
+        "Theoretical Neuroscience — Dayan & Abbott (2001, la référence, avancé).",
+        "Neuronal Dynamics — Gerstner et al. (2014, gratuit, neuronaldynamics.epfl.ch).",
+        "Principles of Neural Science — Kandel et al. (socle bio).",
+        "Reinforcement Learning — Sutton & Barto (gratuit, lien RL↔cerveau).",
+        "Revues/conf. : Cosyne, NeurIPS, Bernstein Conference, IEEE EMBS/NER, CNS.",
+        "MOOC : Neuromatch Academy (école d'été gratuite) ; Computational Neuroscience (UW/Coursera)."
+      ],
+      "parcours20h": [
+        "8 h : tutoriels Neuromatch (systèmes linéaires + modèles à spikes).",
+        "6 h : Neuronal Dynamics ch. 1-7.",
+        "6 h : implémenter un neurone intègre-et-tire + un décodeur EEG simple (BCI Competition).",
+        "Compléter par 2 papers Cosyne/BCI."
+      ],
+      "programmes": [
+        {"univ": "Université Paris Cité (co-hab. Sorbonne/ENS)", "intitule": "Master Sciences cognitives — parcours NCIA", "pays": "France", "frais": "droits différenciés nat. (à confirmer)", "fraisBadge": "🟡", "deadline": "non publiée (cog-sup.fr / Mon Master)", "deadlineBadge": "⚫", "financement": "Eiffel via établissement ; bourses PSL/ENS", "finBadge": "🟡", "url": "https://u-paris.fr/master-in-cognitive-science-computational-neuroscience-and-artificial-intelligence-ncia/", "retenu": true, "verdict": "Meilleur fit neuro : informatique explicitement admise, aucune mise à niveau bio exigée."},
+        {"univ": "Université Paris-Saclay", "intitule": "M2 Computational Neurosciences and Neuroengineering (CNN)", "pays": "France", "frais": "0–500 € vs droits diff. — divergence", "fraisBadge": "🔴", "deadline": "non trouvée", "deadlineBadge": "⚫", "financement": "IDEX / Graduate School Neurosciences ; Eiffel", "finBadge": "🟡", "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/neurosciences/m2-computational-neurosciences-and-neuroengineering", "retenu": true, "verdict": "Volet neuroengineering + BCI + mouvement = pont direct avec danse/biomécanique ; sélectif (CGPA ≥ 3,5)."},
+        {"univ": "EPFL", "intitule": "Master in Neuro-X", "pays": "Suisse (Lausanne)", "frais": "780 CHF/sem vs ~4 480 CHF/an — divergence", "fraisBadge": "🔴", "deadline": "proj. ~15 déc. 2026", "deadlineBadge": "🟡", "financement": "EPFL Excellence Fellowships (pas d'Eiffel)", "finBadge": "🟡", "url": "https://www.epfl.ch/education/master/programs/neuro-x/", "retenu": false, "verdict": "Fit neuro-ingénierie fort (labo Gerstner) mais sélectif + incertitude tarifaire suisse."},
+        {"univ": "ETH Zurich + UZH", "intitule": "MSc Neural Systems and Computation", "pays": "Suisse (Zurich)", "frais": "~CHF 1 500/sem (secondaire)", "fraisBadge": "🟡", "deadline": "proj. ~15 déc. 2026 / 15 avr. 2027", "deadlineBadge": "🟡", "financement": "ETH/UZH + Swiss Gov. Excellence (élig. Colombie ⚫)", "finBadge": "🟡", "url": "https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/neural-systems-and-computation.html", "retenu": false, "verdict": "Programme d'élite ; sélectif + coût de vie élevé + éligibilité bourse Colombie à vérifier."},
+        {"univ": "BCCN Berlin (TU/HU/Charité)", "intitule": "MSc Computational Neuroscience", "pays": "Allemagne", "frais": "gratuit (~250–350 €/sem)", "fraisBadge": "🟡", "deadline": "proj. ~15 mars 2027 (patron 15 mars)", "deadlineBadge": "🟡", "financement": "gratuité + DAAD", "finBadge": "🟡", "url": "https://www.bccn-berlin.de/master-program-application.html", "retenu": true, "verdict": "100 % anglais, gratuit, fit CS attendu ; vérifier liste exacte des prérequis + GRE."},
+        {"univ": "Université de Tübingen (BCCN)", "intitule": "MSc Neural Information Processing", "pays": "Allemagne", "frais": "gratuit (public)", "fraisBadge": "🟡", "deadline": "proj. ~31 mars 2027 (patron 31 mars)", "deadlineBadge": "🟡", "financement": "gratuité + DAAD", "finBadge": "🟡", "url": "https://www.bccn-tuebingen.de/", "retenu": true, "verdict": "Environnement Max Planck (Cyber Valley), fit ML/neuro fort, quasi gratuit."},
+        {"univ": "University of Edinburgh", "intitule": "MScR Informatics ANC (ML/Comp Neuro/Comp Bio)", "pays": "UK", "frais": "typiquement £30k+ (non extrait)", "fraisBadge": "⚫", "deadline": "non trouvée", "deadlineBadge": "⚫", "financement": "Chevening (si expérience) ; bourses Édimbourg", "finBadge": "🟡", "url": "https://study.ed.ac.uk/programmes/postgraduate-research/489-informatics-iml-machine-learning-computational-neuroscience", "retenu": false, "verdict": "Fit ML/comp neuro ; barrière = frais UK + Chevening exige de l'expérience."},
+        {"univ": "Radboud University (Donders)", "intitule": "Research Master Cognitive Neuroscience", "pays": "Pays-Bas", "frais": "~€19 714 (chiffre AI, CN non confirmé)", "fraisBadge": "🟡", "deadline": "~31 janv. 2027 (bourse) / ~1 avr. 2027", "deadlineBadge": "🟡", "financement": "Radboud Scholarship / NL-Holland (partielles)", "finBadge": "🟡", "url": "https://www.ru.nl/en/education/masters/cognitive-neuroscience-research", "retenu": false, "verdict": "Entrée par voie IA avec mise à niveau neuro probable ; bourses partielles seulement."},
+        {"univ": "Universidad Politécnica de Madrid", "intitule": "Máster en Neurotecnología (MUNEUROTEC)", "pays": "Espagne", "frais": "prix public UPM non trouvé", "fraisBadge": "⚫", "deadline": "non trouvée", "deadlineBadge": "⚫", "financement": "au catalogue Fundación Carolina (fiches 6374/6155)", "finBadge": "🟡", "url": "https://neurotec.upm.es/master-en-neurotecnologia/", "retenu": true, "verdict": "Seul programme neuro/bioinfo confirmé au catalogue Carolina ; modules AI + Neurosignals = fit direct."},
+        {"univ": "UPC (ETSEIB, Barcelone)", "intitule": "University Master's in Neuroengineering and Rehabilitation", "pays": "Espagne", "frais": "~102,52 €/crédit non-UE ⇒ ~12 000 € les 120 ECTS", "fraisBadge": "🟡", "deadline": "non trouvée", "deadlineBadge": "⚫", "financement": "Carolina (catalogue ⚫) + Colfuturo", "finBadge": "🟡", "url": "https://www.upc.edu/en/masters", "retenu": true, "verdict": "★ Fusion maximale : rehab + biomécanique + accessibilité + danse ; informatique explicitement admise."},
+        {"univ": "Universitat Pompeu Fabra", "intitule": "Master in Brain and Cognition", "pays": "Espagne", "frais": "tasas UPF non-UE non trouvées", "fraisBadge": "⚫", "deadline": "non trouvée", "deadlineBadge": "⚫", "financement": "ayudas internes ; Carolina (catalogue ⚫)", "finBadge": "🟡", "url": "https://www.upf.edu/web/mbc", "retenu": false, "verdict": "Accessible mais orienté cognition ; moins différenciant que UPC/DATCOM pour le profil."},
+        {"univ": "Universidad de Granada (ETSIIT)", "intitule": "Máster DATCOM — UE Neuro Comp & Neuroingénierie", "pays": "Espagne", "frais": "prix public andalou (bas) non trouvé", "fraisBadge": "⚫", "deadline": "non trouvée (préinscription DUA ~juin–juil.)", "deadlineBadge": "⚫", "financement": "coût bas ; Carolina (catalogue ⚫)", "finBadge": "🟡", "url": "https://masteres.ugr.es/datcom/", "retenu": true, "verdict": "Voie la plus sans friction : master CS pur avec UE neuro comp, coût bas, très employable."}
+      ],
+      "fusion": [
+        "Traitement du signal + ML + biomécanique du mouvement (danse) = profil idéal neuro-ingénierie du mouvement.",
+        "Atout unique : capture de mouvement Rokoko + Blender, rare chez les comp-neuro.",
+        "Projet : décodeur EEG open-source ; mocap couplée à un modèle de contrôle moteur.",
+        "Angle mémoire ★ : « Neuro & mouvement / accessibilité motrice » — contrôle moteur pour la réhabilitation, cas d'étude genou légitime."
+      ],
+      "risque": [
+        "Scénario de regret : viser EPFL/ETH puis rejet (sélectivité) ou coût de vie suisse insoutenable sans bourse.",
+        "Paris-Saclay CNN : frais 0–500 € possiblement une erreur → confirmer, ne pas s'y fier.",
+        "Radboud : entrée par voie IA avec mise à niveau neuro qui rallonge le cursus.",
+        "UPC parfait sur le fond mais financement espagnol non structurel (dépend de Carolina)."
+      ],
+      "annexes": [
+        {"titre": "Université Paris Cité — Master NCIA (France)", "lignes": [
+          "Durée : 2 ans (M1+M2), interdisciplinaire ; langue anglais/français à vérifier ⚫.",
+          "Pensum : M1 tronc commun sciences cognitives ; M2 neuro comp + IA + stage recherche.",
+          "Prérequis : M1 = licence Bio/Maths/Physique OU Informatique ; M2 cursus ingénieur/médecine accepté 🟡.",
+          "Aucune mise à niveau bio/médicale exigée → un des meilleurs fits du dossier.",
+          "Frais : droits différenciés nationaux à confirmer ⚫.",
+          "Financement : Eiffel via établissement ; bourses PSL/ENS possibles 🟡.",
+          "Deadline 2027 : ⚫ via cog-sup.fr (M2) / Mon Master (M1)."
+        ]},
+        {"titre": "Université Paris-Saclay — M2 CNN (France)", "lignes": [
+          "M2 (1 an) en anglais 🟡 ; labo NeuroPSI.",
+          "Pensum : S1 = 6 UE + projet ; S2 = stage 5-6 mois ; inclut explicitement les BCI 🟡.",
+          "Prérequis : Life Sciences, Informatique, Maths, Physique, Ingénierie ; M1 (240 ECTS).",
+          "Sélectif : CGPA ≥ 3,5/4 fortement recommandé 🟡.",
+          "Frais : 0–500 € (Mastersportal) — à confirmer impérativement 🔴.",
+          "Financement : IDEX / Graduate School Neurosciences ; Eiffel 🟡.",
+          "Verdict : neuroengineering + BCI + mouvement = pont le plus direct avec la danse."
+        ]},
+        {"titre": "BCCN Berlin — MSc Computational Neuroscience (Allemagne)", "lignes": [
+          "2 ans, 100 % anglais, gratuit (~250–350 €/sem) 🟡.",
+          "Consortium HU/TU/Charité/FU/Potsdam/Max Delbrück.",
+          "Deadline : proj. ~15 mars 2027 (patron 15 mars) 🟡.",
+          "Financement : gratuité + DAAD 🟡.",
+          "Prérequis : fit CS attendu (vérifier liste exacte + éventuel GRE).",
+          "Verdict : coût quasi nul, environnement de recherche fort ; fit CS-friendly."
+        ]},
+        {"titre": "Université de Tübingen — MSc Neural Information Processing (Allemagne)", "lignes": [
+          "Anglais, gratuit (public) 🟡 ; environnement Max Planck (Cyber Valley).",
+          "Deadline : proj. ~31 mars 2027 (patron 31 mars) 🟡.",
+          "Financement : gratuité + DAAD 🟡.",
+          "Prérequis : fit ML/neuro fort attendu.",
+          "Frais : gratuit (public) 🟡.",
+          "Verdict : fit ML/neuro solide, coût quasi nul ; ne pas confondre avec le MSc Bioinformatics (risque)."
+        ]},
+        {"titre": "UPM — MUNEUROTEC (Espagne)", "lignes": [
+          "Structure semestrielle, toutes matières en anglais 🟡 ; centre ETSIT (Telecom).",
+          "Pensum : Neuroscience, Neurodevices, AI in Neurotechnology, Neurosignals, Neuroprosthetics.",
+          "Prérequis : recommandé ingénierie biomédicale ; admet informatique/télécom (confirmer nivelación) 🟡.",
+          "Frais : prix public master UPM ⚫.",
+          "Financement : ★ au catalogue Fundación Carolina (fiches 6374/6155) 🟡.",
+          "Deadline 2027 : ⚫.",
+          "Verdict : seul programme neuro/bioinfo explicitement finançable par Carolina."
+        ]},
+        {"titre": "UPC — Neuroengineering and Rehabilitation (Espagne)", "lignes": [
+          "2 ans, présentiel ; requiert B2 anglais (docencia en anglais à vérifier) ⚫.",
+          "Pensum : neuro-ingénierie, rehabilitation, signaux biomédicaux, technologie assistive.",
+          "Prérequis : ingénierie, physique, maths, INFORMATIQUE, médecine, biologie ou psychologie 🟡.",
+          "Frais : ~102,52 €/crédit non-UE ⇒ ~12 000 € les 120 ECTS 🟡.",
+          "Financement : Carolina (catalogue ⚫) + Colfuturo.",
+          "Deadline 2027 : ⚫.",
+          "Verdict : ★ angle parfait — rehab + biomécanique + accessibilité + danse ; financement non structurel."
+        ]},
+        {"titre": "UGR — Máster DATCOM (Espagne)", "lignes": [
+          "60 ECTS (1 an), espagnol (matières en anglais à vérifier) ⚫.",
+          "Pensum : master informatique/données (HPC + big data), UE Neurociencia Computacional y Neuroingeniería 🟡.",
+          "Prérequis : champ Ingénierie et Architecture ; préinscription via DUA 🟡.",
+          "Accessibilité MUY ALTA (master CS, pas de bio exigée).",
+          "Frais : prix public andalou (bas) ⚫.",
+          "Financement : coût bas + vie à Grenade favorable ; Carolina (catalogue ⚫).",
+          "Verdict : voie la plus sans friction de CS pur vers le monde neuro ; très employable."
+        ]}
+      ],
+      "biblioComplete": [
+        "Dayan & Abbott — Theoretical Neuroscience (2001).",
+        "Gerstner et al. — Neuronal Dynamics (2014, gratuit).",
+        "Kandel et al. — Principles of Neural Science.",
+        "Rieke et al. — Spikes ; Sporns — Networks of the Brain.",
+        "Sutton & Barto — Reinforcement Learning (gratuit).",
+        "Conférences : Cosyne, NeurIPS, Bernstein Conference, IEEE EMBS/NER, CNS.",
+        "MOOC : Neuromatch Academy ; Computational Neuroscience (UW/Coursera) ; cours EPFL Gerstner (edX)."
+      ]
+    },
+    {
+      "nom": "Bioinformatique / biologie computationnelle",
+      "definition": [
+        "Algorithmique et data engineering appliqués aux données biologiques (génomique, omiques).",
+        "Le domaine où le pur skill CS (algo, gros volumes, pipelines) est le plus valorisé.",
+        "Le plus employable MAIS le plus risqué à l'admission (crédits bio, exclusion ingénierie).",
+        "Barrières basses : UPF, UAM, FU Berlin, Lyon, UdeM, voie EMJM."
+      ],
+      "alignement": [
+        {"priorite": "① Impact concret", "score": 2, "note": "Génomique de santé publique pour populations mal desservies ; angle accessibilité moins direct."},
+        {"priorite": "② Création visuelle", "score": 2, "note": "Visualisation 3D de structures moléculaires avec Blender, rare et différenciant."},
+        {"priorite": "③ Problèmes techniques", "score": 3, "note": "Algorithmique, pipelines reproductibles, data engineering : skill CS immédiatement valorisé."},
+        {"priorite": "④ Cerveau & monde", "score": 1, "note": "Biologie moléculaire et santé, mais pas de lien au cerveau."}
+      ],
+      "quotidienMaster": [
+        "Cours d'algorithmique bioinfo (alignement, HMM, assemblage), stats, génomique.",
+        "Mise à niveau biologie (la principale marche à franchir).",
+        "Pipelines reproductibles Nextflow/Snakemake sur données publiques.",
+        "Projet / stage en labo de génomique ou bio computationnelle."
+      ],
+      "quotidienPro": [
+        "Bioinformaticien / data engineer en pharma, biotech, recherche, hôpital.",
+        "Construire des pipelines d'analyse omique et des services d'analyse.",
+        "Développer et maintenir des outils open-source bioinfo.",
+        "Collaborer avec biologistes et cliniciens."
+      ],
+      "marche2026": [
+        "Domaine le plus employable des trois ; forte demande data engineering bioinfo 🟡 (réf. 2026).",
+        "Le skill CS (pipelines, algo) est immédiatement valorisé face à des cohortes de biologistes.",
+        "Vérifier les tendances 2026 sur adbioinformatics.com / biotechnologyjobs.co.uk (secondaire)."
+      ],
+      "biblio": [
+        "Biological Sequence Analysis — Durbin, Eddy, Krogh & Mitchison (1998, HMM/alignement).",
+        "Bioinformatics Algorithms — Compeau & Pevzner (algorithmique, jumelé à Rosalind).",
+        "Bioinformatics and Functional Genomics — Pevsner.",
+        "Understanding Bioinformatics — Zvelebil & Baum.",
+        "Revues/conf. : Bioinformatics (Oxford), Nature Methods, Genome Biology ; ISMB, RECOMB, ECCB.",
+        "MOOC : Bioinformatics Specialization (UC San Diego) ; Rosalind ; EMBL-EBI training."
+      ],
+      "parcours20h": [
+        "8-10 h : Rosalind (20 premiers problèmes : alignement, assemblage) en Python.",
+        "6 h : chapitres HMM de Durbin / UCSD semaines 1-3.",
+        "4-6 h : pipeline reproductible Nextflow/Snakemake sur NCBI/Ensembl (Biopython).",
+        "Compléter par 2 papers single-cell de Genome Biology."
+      ],
+      "programmes": [
+        {"univ": "Université Claude Bernard Lyon 1", "intitule": "Master Bio-informatique (Bioinfo@Lyon)", "pays": "France", "frais": "droits différenciés nat. (à confirmer)", "fraisBadge": "🟡", "deadline": "proj. Mon Master ~févr.–mars 2027", "deadlineBadge": "🟡", "financement": "Eiffel via établissement", "finBadge": "🟡", "url": "https://www.bioinfo-lyon.fr/", "retenu": true, "verdict": "Barrière basse, atout réseau INSA Lyon ; éligible Eiffel."},
+        {"univ": "Université de Bordeaux", "intitule": "Master Bioinformatics (track « Bioinformatics and Omics »)", "pays": "France", "frais": "droits différenciés nat. (à confirmer)", "fraisBadge": "🟡", "deadline": "non trouvée (Mon Master pour M1)", "deadlineBadge": "⚫", "financement": "Eiffel via établissement", "finBadge": "🟡", "url": "https://master-bioinfo-bordeaux.github.io/", "retenu": false, "verdict": "Track anglophone omiques ; vérifier prérequis bio et deadline avant de candidater."},
+        {"univ": "Université libre de Bruxelles", "intitule": "Master en bioinformatique et modélisation (MA-BINF)", "pays": "Belgique", "frais": "~5 369 €/an (2026-27) + 200 € dossier", "fraisBadge": "🟡", "deadline": "proj. ~fin avril 2027 (hors-UE)", "deadlineBadge": "🟡", "financement": "ARES (élig. Colombie ⚫) ; pas d'Eiffel", "finBadge": "🔴", "url": "https://www2.ulb.ac.be/temp/programme/MA-BINF/index.html", "retenu": false, "verdict": "Accès possible mais mise à niveau jusqu'à 60 crédits qui rallonge le cursus ; financement faible."},
+        {"univ": "Université de Montréal", "intitule": "Maîtrise en bio-informatique", "pays": "Canada (Québec)", "frais": "exemption auto : Niv. A 13 340,40 $CA/an, Niv. B 6 357,60 $CA/an", "fraisBadge": "🟡", "deadline": "proj. dépôts intl ~févr.–mars 2027", "deadlineBadge": "🟡", "financement": "bourse d'exemption automatique ; PGWP", "finBadge": "🟡", "url": "https://admission.umontreal.ca/programmes/maitrise-en-bio-informatique/", "retenu": true, "verdict": "Francophone, exemption auto, PGWP/PEQ = meilleure voie migratoire ; angle accessibilité plus faible."},
+        {"univ": "Université de Tübingen", "intitule": "MSc Bioinformatics", "pays": "Allemagne", "frais": "~1 500 €/sem non-UE (Bade-Wurtemberg)", "fraisBadge": "🟡", "deadline": "proj. ~15 mai/15 juil. 2027", "deadlineBadge": "🟡", "financement": "ingénierie explicitement NON éligible → risque décisif", "finBadge": "🔴", "url": "https://uni-tuebingen.de/en/study/finding-a-course/degree-programs-available/detail/course/bioinformatics-master/", "retenu": false, "verdict": "🔴 « Un diplôme d'ingénierie ne constitue PAS une éligibilité » → faire trancher par les admissions avant tout."},
+        {"univ": "Freie Universität Berlin", "intitule": "MSc Bioinformatics", "pays": "Allemagne", "frais": "gratuit (public)", "fraisBadge": "🟡", "deadline": "non trouvée", "deadlineBadge": "⚫", "financement": "gratuité + DAAD", "finBadge": "🟡", "url": "https://www.fu-berlin.de/en/", "retenu": true, "verdict": "Gratuit, fit CS-friendly parmi les plus sûrs en Allemagne ; vérifier prérequis bio."},
+        {"univ": "KTH", "intitule": "MSc Molecular Biotechnology and Bioinformatics", "pays": "Suède", "frais": "~SEK 310 000 total (~€27–28k)", "fraisBadge": "🟡", "deadline": "16 oct. 2026–~15 janv. 2027", "deadlineBadge": "🟡", "financement": "KTH Scholarship + SISGP (attend souvent expérience)", "finBadge": "🟡", "url": "https://www.kth.se/en/studies/master/molecular-biotechnology-and-bioinformatics/", "retenu": false, "verdict": "Attend des crédits de biologie ; frais élevés + bourses qui attendent de l'expérience."},
+        {"univ": "University of Copenhagen", "intitule": "MSc Bioinformatics", "pays": "Danemark", "frais": "non-UE (~DKK 100 000+/an)", "fraisBadge": "🟡", "deadline": "candidatures dès 15 nov. 2026", "deadlineBadge": "🟡", "financement": "financement faible (point faible Danemark)", "finBadge": "🔴", "url": "https://www.ku.dk/studies/masters/bioinformatics", "retenu": false, "verdict": "Attend des crédits de biologie ; financement faible → écarter/faire trancher les admissions."},
+        {"univ": "Wageningen University & Research", "intitule": "MSc Bioinformatics and Systems Biology", "pays": "Pays-Bas", "frais": "~€20k+/an (à vérifier)", "fraisBadge": "🟡", "deadline": "proj. ~1 avr. 2027 (plus tôt pour bourses)", "deadlineBadge": "🟡", "financement": "NL/Holland Scholarship ; WUR fellowships (partielles)", "finBadge": "🟡", "url": "https://www.mastersportal.com/studies/1453/bioinformatics.html", "retenu": false, "verdict": "Bon programme mais frais élevés + bourses partielles seulement ; vérifier prérequis bio."},
+        {"univ": "Consortium QuBiD", "intitule": "EMJM Quantitative Biodiversity (bioinfo + IA)", "pays": "UE (6 pays)", "frais": "couvert par bourse EM", "fraisBadge": "⚫", "deadline": "nouveau programme, 1re cohorte incertaine", "deadlineBadge": "⚫", "financement": "bourse EM complète 1 400 €/mois", "finBadge": "🟡", "url": "https://erasmus-plus.ec.europa.eu/", "retenu": true, "verdict": "Bioinfo + IA + bourse complète sans barrière d'expérience ; vérifier éligibilité CS sans bio + cohorte 2027."},
+        {"univ": "Consortium BIOPHAM", "intitule": "EMJM (découverte de médicaments / bioinfo, 2026-2031)", "pays": "UE", "frais": "couvert par bourse EM", "fraisBadge": "⚫", "deadline": "50 bourses complètes (cohorte à vérifier)", "deadlineBadge": "⚫", "financement": "bourse EM complète", "finBadge": "🟡", "url": "https://www.master-biopham.eu/erasmus-scholarship", "retenu": false, "verdict": "Bourse complète (50 places) ; vérifier entrée CS et cohorte 2027 au catalogue."},
+        {"univ": "Universitat Pompeu Fabra + UB", "intitule": "Master in Bioinformatics for Health Sciences", "pays": "Espagne", "frais": "~5 750 €/an (terceros, réf. 2024-25)", "fraisBadge": "🟡", "deadline": "non trouvée (préinscription ~nov./janv.)", "deadlineBadge": "⚫", "financement": "Carolina (catalogue ⚫) ; Colfuturo ; ICETEX", "finBadge": "🟡", "url": "https://www.upf.edu/web/bioinformatics/", "retenu": true, "verdict": "« Engineering studies » explicitement admis → barrière basse ; croiser Carolina."},
+        {"univ": "Universidad Autónoma de Madrid", "intitule": "Máster en Bioinformática y Biología Computacional", "pays": "Espagne", "frais": "prix public Madrid non trouvé", "fraisBadge": "⚫", "deadline": "non trouvée", "deadlineBadge": "⚫", "financement": "profil « Tecnológico » admis ; Carolina (catalogue ⚫)", "finBadge": "🟡", "url": "https://www.uam.es/medicina/en/masterbioinfo", "retenu": true, "verdict": "Profil « Tecnológico » explicitement admis → barrière basse pour une ingénieure."}
+      ],
+      "fusion": [
+        "Le domaine où le pur skill CS (algo, gros volumes, pipelines reproductibles) est le plus immédiatement valorisé.",
+        "Projet : Rosalind + pipeline génomique Nextflow/Snakemake publié en service FastAPI.",
+        "Projet : visualisation 3D de structures moléculaires avec Blender (rare et différenciant).",
+        "Contribuer à un outil bioinfo open-source = signal de fluidité biologique aux admissions.",
+        "Angle mémoire : génomique de santé publique pour populations mal desservies / IA pour données de santé en Colombie."
+      ],
+      "risque": [
+        "Scénario de regret majeur : rejet à l'admission pour absence de crédits de biologie.",
+        "Tübingen bioinfo : « ingénierie non éligible » 🔴 → candidature perdue si le diplôme est lu comme ingénierie.",
+        "KTH/Copenhague attendent des crédits bio ; Copenhague finance faiblement.",
+        "ULB : mise à niveau jusqu'à 60 crédits qui rallonge le cursus et alourdit le coût."
+      ],
+      "annexes": [
+        {"titre": "Lyon 1 — Master Bio-informatique (France)", "lignes": [
+          "Master Bioinfo@Lyon ; atout réseau INSA Lyon.",
+          "Frais : droits différenciés nationaux à confirmer 🟡.",
+          "Deadline : proj. Mon Master ~févr.–mars 2027 (patron 17 févr.–16 mars 2026) 🟡.",
+          "Financement : Eiffel via établissement 🟡.",
+          "Prérequis : profil bioinfo/CS ; barrière relativement basse.",
+          "Verdict : voie française accessible, écosystème solide ; éligible Eiffel."
+        ]},
+        {"titre": "Université de Montréal — Maîtrise en bio-informatique (Québec)", "lignes": [
+          "Maîtrise (~2 ans, avec mémoire), en français (atout : candidate francophone) 🟡.",
+          "Prérequis : profil quantitatif/informatique/biologie ; CS voie classique (à confirmer) ⚫.",
+          "Frais : exemption auto Niv. A 13 340,40 $CA/an, Niv. B 6 357,60 $CA/an (réf. 2025-26) 🟡.",
+          "Deadline 2027 : ⚫ (patron « 1er sept. » ; dépôts intl ferment ~févr.–mars).",
+          "Post-diplôme : PGWP + PEQ = le plus favorable à une installation durable 🟡.",
+          "Verdict : francophone, coût net potentiellement le plus bas, meilleure voie migratoire ; angle accessibilité plus faible."
+        ]},
+        {"titre": "FU Berlin — MSc Bioinformatics (Allemagne)", "lignes": [
+          "Master en anglais, gratuit (public) 🟡.",
+          "Deadline 2027 : ⚫ non trouvée (vérifier page programme officielle).",
+          "Financement : gratuité + DAAD 🟡.",
+          "Prérequis : éligibilité CS + prérequis bio à vérifier.",
+          "Frais : gratuit (public) 🟡.",
+          "Verdict : fit CS-friendly parmi les plus sûrs en Allemagne ; coût quasi nul."
+        ]},
+        {"titre": "UPF + UB — Bioinformatics for Health Sciences (Espagne)", "lignes": [
+          "Master en bioinformatique pour les sciences de la santé.",
+          "Prérequis : « engineering studies » explicitement admis → barrière basse 🟡.",
+          "Frais : ~5 750 €/an (terceros, réf. 2024-25) 🟡.",
+          "Deadline : ⚫ non trouvée (préinscription ~nov./janv.).",
+          "Financement : Carolina (catalogue ⚫) ; Colfuturo ; ICETEX 🟡.",
+          "Verdict : admission accessible pour une ingénieure ; croiser le catalogue Carolina."
+        ]},
+        {"titre": "UAM — Bioinformática y Biología Computacional (Espagne)", "lignes": [
+          "Máster en bioinformatique et biologie computationnelle.",
+          "Prérequis : profil « Tecnológico » explicitement admis → barrière basse 🟡.",
+          "Frais : prix public Madrid non trouvé ⚫.",
+          "Deadline 2027 : ⚫ non trouvée.",
+          "Financement : Carolina (catalogue ⚫) 🟡.",
+          "Verdict : voie espagnole accessible pour une ingénieure des systèmes ; vérifier frais + Carolina."
+        ]},
+        {"titre": "QuBiD — EMJM Quantitative Biodiversity (UE)", "lignes": [
+          "Consortium 6 pays (Varsovie/Charles/Sorbonne/Copenhague/Milan/Tartu).",
+          "Bioinfo + IA + data science ; bourse EM complète 1 400 €/mois, aucune expérience requise.",
+          "Frais : couverts par la bourse EM ⚫.",
+          "Deadline : nouveau programme, 1re cohorte incertaine ⚫.",
+          "Financement : bourse EM complète 🟡 (priorité n°1 pour jeune diplômée).",
+          "Verdict : vérifier l'éligibilité d'un profil CS sans biologie et l'existence d'une cohorte 2027."
+        ]}
+      ],
+      "biblioComplete": [
+        "Durbin, Eddy, Krogh & Mitchison — Biological Sequence Analysis (1998).",
+        "Compeau & Pevzner — Bioinformatics Algorithms.",
+        "Pevsner — Bioinformatics and Functional Genomics.",
+        "Zvelebil & Baum — Understanding Bioinformatics.",
+        "Ewens & Grant — Statistical Methods in Bioinformatics.",
+        "Revues/conf. : Bioinformatics (Oxford), Nature Methods, Genome Biology, PLOS Comp Biology ; ISMB, RECOMB, ECCB, JOBIM.",
+        "MOOC : Bioinformatics Specialization (UC San Diego) ; Rosalind ; EMBL-EBI training."
+      ]
+    }
+  ],
+  "contradictions": [
+    {"sujet": "MAIA — rentrée 2027", "valeurA": "Biennal 2025-2027 non offert ; prochaine édition sept. 2026 ou 2028", "valeurB": "Listé comme cible potentielle rentrée 2027", "lecture": "🔴 Ne pas compter sur 2027 sans vérifier le calendrier d'édition — maiamaster.udg.edu/admission/"},
+    {"sujet": "NeuroData EMJM — dernière édition", "valeurA": "« Final edition 2026-2027 » → cohorte démarrant 2026", "valeurB": "Listé comme EMJM neuro pertinent", "lecture": "🔴/🟡 Si cohorte entre sept. 2026, aucune entrée 2027 — vérifier sur neurodata-master.org"},
+    {"sujet": "Paris-Saclay CNN — frais non-UE", "valeurA": "0–500 € (Mastersportal, secondaire)", "valeurB": "Droits différenciés ~3 941 €/an (règle France)", "lecture": "🔴 Divergence majeure ; ne pas s'y fier — confirmer sur universite-paris-saclay.fr"},
+    {"sujet": "EPFL Neuro-X — frais", "valeurA": "780 CHF/sem pour tous (historique)", "valeurB": "Hausse étrangers ~4 480 CHF/an (réforme)", "lecture": "🔴 Réforme tarifaire suisse en cours — statut 2027 à revérifier sur epfl.ch"},
+    {"sujet": "France — droits différenciés master non-UE", "valeurA": "~3 770 €/an (2026-27)", "valeurB": "3 941 €/an (2025-26)", "lecture": "🔴 Divergence d'année de validité — confirmer le montant 2026-27/2027-28 à l'URL officielle"},
+    {"sujet": "Carolina — apoyo mensuel", "valeurA": "450–750 € (officiel-secondaire)", "valeurB": "~900–1 200 € (selon convenio)", "lecture": "🔴 Varie par source/convenio — vérifier la fiche du programme concret"},
+    {"sujet": "Tübingen Bioinformatics — éligibilité", "valeurA": "« Un diplôme d'ingénierie ne constitue PAS une éligibilité »", "valeurB": "Ingeniería de sistemas possiblement lue comme informatique = acceptée", "lecture": "🔴 Lecture décisive du diplôme — faire trancher par le bureau des admissions avant de candidater"}
+  ],
+  "nonVerifies": [
+    "Deadlines rentrée 2027 (aucune publiée en juil. 2026) : Paris Cité eHealth & NCIA, IP Paris, Bordeaux, Paris-Saclay CNN, Lyon 1, ULB, UdeM — surveiller automne 2026.",
+    "Cohortes 2027 EMJM (EMMaH, EMJM Imaging, QuBiD, BIOPHAM) — https://erasmus-plus.ec.europa.eu/",
+    "MAIA biennal : existe-t-il une rentrée 2027 ? — https://maiamaster.udg.edu/admission/",
+    "NeuroData EMJM : dernière édition 2026-2027, pas d'entrée 2027 ? — vérifier sur neurodata-master.org",
+    "Frais IP Paris DS4Health (PDF non extrait) — https://www.ip-paris.fr/sites/default/files/pages/documents/Masters/master-phd-track-registration-fees-2024-EN-26-27_19-12-2025.pdf",
+    "Frais différenciés Paris Cité eHealth & NCIA pour ces parcours — https://odf.u-paris.fr/",
+    "Tübingen bioinfo : ingeniería de sistemas comptée comme informatique ? — écrire aux admissions",
+    "Copenhague & KTH : crédits de biologie exigés ? — pages admissions officielles",
+    "Imperial : CS/ingénierie admis (borderline) ? — https://www.imperial.ac.uk/study/courses/postgraduate-taught/health-data-analytics/",
+    "Langue de NCIA (anglais/français ?) — cog-sup.fr ; langue/anglais de UPC Neuroingeniería",
+    "Éligibilité Colombie aux Swiss Government Excellence Scholarships et aux bourses ARES (ULB)",
+    "Limite d'âge Eiffel 2027 (29 ans) contre la date de naissance de la candidate — campusfrance.org",
+    "Lignes DAAD sans barrière d'expérience ; catalogue Fundación Carolina 2027-28 (croiser chaque master)",
+    "Calendriers d'urgence : MEXT ambassade Japon ~avril–mai 2026 ; GKS ~févr.–mars 2026 — confirmer d'urgence"
+  ]
+}
