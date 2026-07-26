@@ -1,0 +1,488 @@
+{
+  "phase": 1,
+  "titre": "Phase 1 — Les champs-ponts : HCI · Visualisation · Serious games",
+  "syntheseDossier": [
+    "36 programmes dédupliqués, ~10 réellement prometteurs sous contrainte « financement décisif » ; géographies disjointes → quasi tout est 🟡, à relire sur URL officielle.",
+    "Leviers de financement intégral : Erasmus Mundus (IMLEX, RE_PLAY) 🟡, Eiffel 🟡, Chevening 🟡, SI Suède + KTH Scholarship 🟡, KAIST 🟡, HKUST-GZ MPhil 🟡.",
+    "Mauvaise nouvelle structurelle : Colfuturo a perdu son convenio étatal en 2026 — condonation 80 % → 25 % 🔴 : c'est devenu un quasi-crédit.",
+    "Fenêtres déjà fermées pour 2027 : Fulbright Colombie (clos 15 mai 2026) 🟡 et MEXT voie ambassade (recrutement avril–mai 2026) 🟡.",
+    "Meilleurs alignements profil : Paris-Saclay HCI, IMLEX, RE_PLAY, UPC Neuroingeniería + Institut Guttmann, UdeM (PGWP jusqu'à 3 ans 🟡).",
+    "Espagne = route la moins chère (~1 800–9 500 € totaux 🟡, visa gratuit, travail 30 h/sem 🟡) mais Carolina dépend d'un catalogue ⚫ invérifiable avant ~janv. 2027.",
+    "Calendrier critique : Chevening ~août 2026 ; Eiffel interne oct.–nov. 2026 🟡 ; Aalto 7 déc. 2026–5 janv. 2027 🟡 ; portail suédois 15 janv. 2027 🟡 ; IMLEX/RE_PLAY ~mi-janv. 2027 🟡.",
+    "Presque aucune date du cycle 2027 publiée en juillet 2026 ; EPFL a triplé ses taxes (4 680 CHF/an 🟡) ; le seul master « Serious Games » (Skövde SEGMA) est remplacé dès l'automne 2026 (contenu ⚫)."
+  ],
+  "domaines": [
+    {
+      "nom": "HCI / Interaction humain-machine (dont accessibilité)",
+      "definition": [
+        "Concevoir et évaluer des interfaces centrées sur l'humain : tests utilisateurs, prototypage, méthodes de recherche empiriques.",
+        "Interaction tangible/multimodale/tactile et VR-AR (jeu, design, simulation, formation) 🟡.",
+        "Accessibilité : WCAG, ability-based design, design inclusif — cible naturelle : la conférence ASSETS.",
+        "« 80 % d'un labo HCI, c'est construire l'appareil de l'expérience » : coder plateformes d'étude et prototypes.",
+        "Sous-champ le plus financé en 2026 : la human-AI interaction (explicabilité, confiance, interaction avec agents)."
+      ],
+      "alignement": [
+        {"priorite": "① Impact concret", "score": 3, "note": "L'accessibilité (ASSETS, ability-based design) et la recherche des parcs de Kennedy touchent directement des usagers réels."},
+        {"priorite": "② Création visuelle", "score": 2, "note": "Le prototypage d'interfaces et la VR/AR nourrissent le visuel, mais le cœur du champ est la méthode, pas l'esthétique."},
+        {"priorite": "③ Problèmes techniques", "score": 3, "note": "Construire l'appareil expérimental est 80 % du travail de labo ; ses agents IA en production y sont le différenciateur n°1."},
+        {"priorite": "④ Cerveau & monde", "score": 2, "note": "On étudie perception et comportement des utilisateurs, mais au niveau appliqué, pas en profondeur neuroscientifique."}
+      ],
+      "quotidienMaster": [
+        "Cours de conception centrée utilisateur, évaluation, interaction multimodale, VR/AR 🟡 (pensums détaillés ⚫ pour presque tous les programmes).",
+        "Études utilisateurs : recruter, tester, analyser — et coder soi-même la plateforme de l'expérience.",
+        "Stage/projet en labo — ex. LISN à Saclay : équipes AVIZ, EX-SITU, ILDA, VENISE (communes Inria) 🟡.",
+        "Lecture et rédaction de papers pour CHI, UIST, ASSETS."
+      ],
+      "quotidienPro": [
+        "UX research quantitative et spécialiste accessibilité (European Accessibility Act appliqué depuis juin 2025 🟡 à vérifier).",
+        "Human-AI interaction : concevoir et évaluer l'interaction avec des agents IA — le versant le plus demandé.",
+        "Prototypage et évaluation d'interfaces en produit ; l'UX générique junior est saturé — viser la spécialité.",
+        "Publication et veille : TOCHI, IJHCS, communautés CHI/ASSETS pour le versant recherche."
+      ],
+      "marche2026": [
+        "UX junior générique saturé ; l'IA générative automatise le bas de gamme (constat concordant FR+EN+ES).",
+        "La demande se déplace vers human-AI interaction, accessibilité (EAA depuis juin 2025 🟡 à vérifier) et recherche quantitative.",
+        "Salaires UX junior France : ~31-42 k€/an 🟡 (2026, sources secondaires).",
+        "Salaires UX junior Espagne : ~20,7-29 k€/an, confirmés 32-48 k€ 🟡 (2026, sources secondaires)."
+      ],
+      "biblio": [
+        "Norman — *The Design of Everyday Things* (éd. rév. 2013) : le canon absolu, cité par les 3 passes.",
+        "Sharp, Rogers & Preece — *Interaction Design* (6e éd. ~2023) : le manuel de référence du champ.",
+        "Lazar et al. — *Research Methods in HCI* (2e éd. 2017) : les méthodes empiriques du master.",
+        "Wobbrock et al. — *Ability-Based Design* (CACM 2018) : directement lié au sujet parcs/accessibilité.",
+        "Kat Holmes — *Mismatch* (2018) : design inclusif, très aligné accessibilité.",
+        "Fitts — loi de Fitts (1954) : le paper fondateur de la modélisation du geste."
+      ],
+      "parcours20h": [
+        "Norman, *The Design of Everyday Things* (4-6 h)",
+        "W3C-WAI « Introduction to Web Accessibility » + heuristiques NN/g (4 h)",
+        "Mini-projet : audit d'accessibilité + 3-5 tests utilisateurs sur son prototype parcs ou une app publique type TransMilenio (8 h)",
+        "Rédiger le cas + lire 2-3 papers ASSETS sur l'accessibilité urbaine (4 h)",
+        "Test : si recruter/tester des utilisateurs énergise plus que le pixel, le domaine est le bon."
+      ],
+      "programmes": [
+        {"univ": "Université Paris-Saclay", "intitule": "M1+M2 Human-Computer Interaction", "pays": "France", "frais": "3 941 €/an 🟡 (2026-27) ; exonération si statut boursier", "fraisBadge": "🟡", "deadline": "⚫ non trouvée (Eiffel interne oct.–nov. 2026 🟡 proj.)", "deadlineBadge": "⚫", "financement": "Eiffel + IDEX 10 000 €/an sur invitation", "finBadge": "🟡", "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/computer-science/m1-human-computer-interaction", "retenu": true, "verdict": "Meilleur alignement HCI+visu+accessibilité de la zone francophone, meilleur écosystème de financement."},
+        {"univ": "UGA / Grenoble INP", "intitule": "MoSIG (pistes UIS = HCI ; GVR = graphique)", "pays": "France", "frais": "3 941 €/an 🟡 (2026-27) sauf exonération UGA", "fraisBadge": "🟡", "deadline": "proj. ~15 janv.–30 avr. 2027 🟡 (patron 2026)", "deadlineBadge": "🟡", "financement": "Eiffel via appel interne UGA", "finBadge": "🟡", "url": "https://mosig.imag.fr/", "retenu": true, "verdict": "Plan B francophone orienté recherche (équipe IIHM/LIG), Eiffel + exonération UGA possibles."},
+        {"univ": "UCLouvain", "intitule": "Master [120] en sciences informatiques", "pays": "Belgique", "frais": "~5 010 €/an 🟡 (2025-26)", "fraisBadge": "🟡", "deadline": "proj. 30 avr. 2027 🟡 (2026 : 30/04)", "deadlineBadge": "🟡", "financement": "quasi aucune bourse non-UE 🔴 (ARES Colombie ⚫)", "finBadge": "🔴", "url": "https://uclouvain.be/prog-2025-sinf2m", "retenu": false, "verdict": "Viable seulement sur fonds propres/Colfuturo — quasi rien pour non-UE en Belgique."},
+        {"univ": "EPFL", "intitule": "MSc in Computer Science", "pays": "Suisse", "frais": "4 680 CHF/an 🟡 (triplement automne 2025, secondaire)", "fraisBadge": "🟡", "deadline": "proj. 15 déc. 2026 (1er tour) / ~31 mars 2027 🟡", "deadlineBadge": "🟡", "financement": "Excellence Fellowship 10 000 CHF/sem. ×4", "finBadge": "🟡", "url": "https://www.epfl.ch/education/master/", "retenu": false, "verdict": "« Reach » : ne tenter qu'en visant l'Excellence Fellowship au 1er tour."},
+        {"univ": "Université de Montréal (DIRO)", "intitule": "Maîtrise en informatique (recherche/cours)", "pays": "Québec", "frais": "⚫ non trouvés — calculateur officiel", "fraisBadge": "⚫", "deadline": "1er févr. 2027 🟡 (règle annuelle publiée)", "deadlineBadge": "🟡", "financement": "exemption UdeM + assistanats du directeur", "finBadge": "🟡", "url": "https://admission.umontreal.ca/programmes/maitrise-en-informatique/", "retenu": true, "verdict": "Voie migratoire la plus solide du dossier : PGWP jusqu'à 3 ans 🟡."},
+        {"univ": "University of Twente", "intitule": "MSc Interaction Technology", "pays": "Pays-Bas", "frais": "14 250 €/an 🟡 (année incertaine, secondaire)", "fraisBadge": "🟡", "deadline": "proj. ~1er avr. 2027 🟡 (patron 2026 non-UE)", "deadlineBadge": "🟡", "financement": "Colfuturo ; bourse Twente ⚫", "finBadge": "🟡", "url": "https://www.utwente.nl/en/education/master/programmes/interaction-technology/", "retenu": false, "verdict": "Cher, sans bourse interne vérifiée."},
+        {"univ": "TU Eindhoven", "intitule": "MSc Human-Technology Interaction", "pays": "Pays-Bas", "frais": "⚫ non trouvés", "fraisBadge": "⚫", "deadline": "1er févr. 2027 🟡 (cutoff bourse ALSP)", "deadlineBadge": "🟡", "financement": "ALSP : 10 complètes (waiver + 7 500 €/an) + ~25 partielles", "finBadge": "🟡", "url": "https://www.tue.nl/en/education/graduate-school/master-human-technology-interaction", "retenu": false, "verdict": "Intéressant seulement via ALSP ; candidature master = inscription bourse automatique."},
+        {"univ": "Utrecht University", "intitule": "MSc Human Computer Interaction", "pays": "Pays-Bas", "frais": "25 306 €/an 🟡 (2026-27)", "fraisBadge": "🟡", "deadline": "⚫ non trouvée (patron NL : févr.–avr.)", "deadlineBadge": "⚫", "financement": "Utrecht Excellence ⚫ ; Colfuturo", "finBadge": "🟡", "url": "https://www.uu.nl/en/masters/human-computer-interaction", "retenu": false, "verdict": "Très cher, financement interne non vérifié."},
+        {"univ": "KTH", "intitule": "MSc Interactive Media Technology", "pays": "Suède", "frais": "SEK 360 000 total programme 🟡 (2026)", "fraisBadge": "🟡", "deadline": "15 janv. 2027 🟡 (portail ouvre ~16 oct. 2026)", "deadlineBadge": "🟡", "financement": "KTH Scholarship (waiver total) + SI : Colombie éligible", "finBadge": "🟡", "url": "https://www.kth.se/en/studies/master/interactive-media-technology", "retenu": true, "verdict": "Route suédoise à double levier (KTH + SI), mutualisable avec Skövde le même 15 janvier."},
+        {"univ": "Bauhaus-Universität Weimar", "intitule": "MSc Human-Computer Interaction", "pays": "Allemagne", "frais": "pas de scolarité — ~277 €/semestre 🟡 (secondaire)", "fraisBadge": "🟡", "deadline": "15 juil. 2027 🟡 (non-UE, WS 2027/28 — pages 2026)", "deadlineBadge": "🟡", "financement": "auto-financement bon marché + Colfuturo", "finBadge": "🟡", "url": "https://www.uni-weimar.de/en/media/studies/human-computer-interaction-msc/", "retenu": false, "verdict": "Plan C quasi gratuit, deadline tardive utile en filet de sécurité."},
+        {"univ": "UCL", "intitule": "MSc Human-Computer Interaction (UCLIC)", "pays": "UK", "frais": "🔴 £42 700/an vs £37 500/an (sources en conflit)", "fraisBadge": "🔴", "deadline": "ouverture ~oct. 2026, fenêtre ~févr. 2027 🟡 (secondaire)", "deadlineBadge": "🟡", "financement": "Chevening (candidature août–oct./nov. 2026)", "finBadge": "🟡", "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/human-computer-interaction-msc", "retenu": false, "verdict": "Uniquement viable via Chevening ; frais contradictoires à vérifier."},
+        {"univ": "Georgia Tech", "intitule": "MS-HCI", "pays": "USA", "frais": "⚫ non vérifiés", "fraisBadge": "⚫", "deadline": "1er févr. 2027 🟡 (Fall, official-via-search)", "deadlineBadge": "🟡", "financement": "aucun garanti 🔴 + Fulbright 2027 clos", "finBadge": "🔴", "url": "https://mshci.gatech.edu/", "retenu": false, "verdict": "Voie US 2027 de facto fermée : auto-financement sans levier."},
+        {"univ": "Univ. of Washington", "intitule": "MS HCDE", "pays": "USA", "frais": "⚫ (programme « fee-based », pas de waiver TA/RA)", "fraisBadge": "⚫", "deadline": "mi-janv. 2027 🟡 (patron 2026 : 14 janv.)", "deadlineBadge": "🟡", "financement": "aucun pour internationaux 🔴", "finBadge": "🔴", "url": "https://www.hcde.washington.edu/ms", "retenu": false, "verdict": "Non viable sans bourse externe — documenté pour justifier l'exclusion US."},
+        {"univ": "KAIST (GSCT)", "intitule": "MS in Culture Technology", "pays": "Corée", "frais": "couverts : scolarité + ~400 000 KRW/mois 🟡 (secondaire)", "fraisBadge": "🟡", "deadline": "Fall 2027 : early ~déc. 2026, regular ~mars 2027 🟡", "deadlineBadge": "🟡", "financement": "bourse KAIST automatique ou GKS-G (~févr. 2027)", "finBadge": "🟡", "url": "https://ct.kaist.ac.kr/", "retenu": true, "verdict": "Financement automatique de tous les admis internationaux — option Asie solide, à revérifier."},
+        {"univ": "HKUST (Guangzhou)", "intitule": "MPhil Computational Media and Arts", "pays": "Chine (diplôme HK)", "frais": "studentship complet jusqu'à 2 ans 🟡", "fraisBadge": "🟡", "deadline": "admissions au fil de l'eau — candidater tôt 🟡", "deadlineBadge": "🟡", "financement": "Postgraduate Studentship intégral", "finBadge": "🟡", "url": "https://cma.hkust-gz.edu.cn/", "retenu": true, "verdict": "Meilleur hybride financé HCI+visu d'Asie ; la recherche parcs y est l'argument de vente."},
+        {"univ": "Univ. of Tsukuba", "intitule": "Master's Program in Informatics", "pays": "Japon", "frais": "⚫ non trouvés", "fraisBadge": "⚫", "deadline": "⚫ (voie MEXT université : ~nov. 2026–janv. 2027)", "deadlineBadge": "⚫", "financement": "MEXT recommandation universitaire (ambassade close)", "finBadge": "🟡", "url": "https://informatics.tsukuba.ac.jp/en/about-us/masters-program/", "retenu": false, "verdict": "Dépend d'une voie MEXT incertaine et probablement fermée pour 2027."},
+        {"univ": "UPF", "intitule": "MU Sistemas Cognitivos y Medios Interactivos (CSIM)", "pays": "Espagne", "frais": "non-UE ⚫ (UE ≈ 1 162 €/60 ECTS 🟡, 2025-26)", "fraisBadge": "⚫", "deadline": "⚫ rondes publiées au 1er trim. 2026-27", "deadlineBadge": "⚫", "financement": "ayudas internes CSIM + Carolina (catalogue ⚫)", "finBadge": "🟡", "url": "https://www.upf.edu/web/csim", "retenu": true, "verdict": "Porte espagnole flexible : 1 an, anglais, toute discipline admise, coût potentiellement bas."},
+        {"univ": "UPM + EIT Digital", "intitule": "Master HCID (double diplôme, 2 pays)", "pays": "Espagne + UE", "frais": "18 000 €/an non-UE 🟡 (2026)", "fraisBadge": "🟡", "deadline": "~nov. 2026–avr. 2027 🟡 (non-UE : 2 premiers tours)", "deadlineBadge": "🟡", "financement": "bourses EIT combinables « jusqu'à complète »", "finBadge": "🟡", "url": "https://masterschool.eitdigital.eu/", "retenu": false, "verdict": "Seulement avec bourse EIT substantielle."},
+        {"univ": "UAM", "intitule": "MU Sistemas Interactivos Inteligentes", "pays": "Espagne", "frais": "~5 044 €/60 ECTS 🟡 (Decreto 43/2022 — à vérifier)", "fraisBadge": "🟡", "deadline": "⚫ non trouvée (plazos ~printemps)", "deadlineBadge": "⚫", "financement": "Carolina (catalogue ⚫) + Colfuturo", "finBadge": "🟡", "url": "https://www.uam.es/uam/en/master-universitario-sistemas-interactivos-inteligentes", "retenu": false, "verdict": "« HCI + machine learning » = combinaison exacte du profil, mais financement non structurel."},
+        {"univ": "UIB (Baléares)", "intitule": "MU Sistemas Inteligentes — itinéraire IPO", "pays": "Espagne", "frais": "⚫ non trouvés", "fraisBadge": "⚫", "deadline": "⚫ non trouvée", "deadlineBadge": "⚫", "financement": "⚫ non trouvé", "finBadge": "⚫", "url": "https://estudis.uib.es/estudis-de-master/master/MUSI/11755/index.html", "retenu": false, "verdict": "Tout est ⚫ — trop d'inconnues pour prioriser."}
+      ],
+      "fusion": [
+        "SvelteKit/FastAPI/MongoDB → prototypage de plateformes d'étude : « 80 % d'un labo HCI, c'est construire l'appareil de l'expérience ».",
+        "Agents IA multi-systèmes en production = différenciateur n°1 en 2026 : quasi aucun candidat HCI n'en a (constat FR/EN/ES).",
+        "La recherche des parcs de Kennedy est déjà un projet HCI/accessibilité de terrain, publiable (ASSETS student track, CHI LBW ~janvier).",
+        "Projet clé avant janv. 2027 : carte web interactive d'accessibilité + étude utilisateur de 5-8 participants — pièce maîtresse de TOUS les dossiers.",
+        "Angle mémoire : évaluer et améliorer l'accessibilité des espaces publics — du parc réel (Kennedy) au jumeau virtuel accessible."
+      ],
+      "risque": [
+        "L'UX junior générique est saturé et l'IA en automatise le bas de gamme : un master trop « design » sans spécialité la renvoie dans la masse des candidats.",
+        "Salaires junior modestes : France ~31-42 k€ 🟡, Espagne ~20,7-29 k€ 🟡 (2026) — régression possible par rapport à un poste d'ingénieure IA.",
+        "Si recruter et tester des humains ne l'énergise pas (le test des 20 h), le cœur du métier devient une corvée quotidienne.",
+        "Presque toutes les données de financement sont 🟡/⚫ : miser sur Eiffel/IDEX sans confirmation peut la laisser admise mais sans argent."
+      ],
+      "annexes": [
+        {"titre": "Université Paris-Saclay — M1/M2 Human-Computer Interaction", "lignes": [
+          "Durée/langue : 2 ans (entrée M1 ou M2), anglais 🟡 (2026) ; IELTS ≥ 6.0 / TOEFL ≥ 90 / TOEIC ≥ 785.",
+          "Pensum : UCD, évaluation, interaction tangible/multimodale/tactile, VR/AR 🟡 ; liste des UE ⚫ — vérifier master-info-orsay.lri.fr.",
+          "Frais : 3 941 €/an 🟡 (2026-27) ; « ~250 €/an si exonéré » 🟡 secondaire ; décret 2026-385 plafonne les exonérations à 30 % 🟡.",
+          "Financement : Eiffel (présélection par le master, interne oct.–nov. 2026 🟡 proj.) + IDEX 10 000 €/an 🟡 sur invitation.",
+          "Deadline 2027 : ⚫ non trouvée — vérifier https://www.universite-paris-saclay.fr/en/admission/masters-applications-and-enrolment + Études en France (obligatoire depuis la Colombie 🟡).",
+          "Labos : LISN « Interaction avec l'Humain » — AVIZ, EX-SITU, ILDA, VENISE 🟡 ; post-diplôme : carte recherche d'emploi 12 mois 🟡.",
+          "Verdict : meilleur alignement HCI+visualisation+accessibilité de la zone francophone.",
+          "URL : https://www.universite-paris-saclay.fr/en/education/masters-degree/computer-science/m1-human-computer-interaction"
+        ]},
+        {"titre": "UGA / Grenoble INP — MoSIG (pistes UIS/GVR)", "lignes": [
+          "Durée/langue : master en anglais, orienté recherche, équipe IIHM/LIG 🟡.",
+          "Pensum : ⚫ non trouvé — vérifier https://mosig.imag.fr/ ; seuil d'anglais ⚫.",
+          "Frais : 3 941 €/an 🟡 (2026-27) sauf exonération « redistributive » UGA possible 🟡.",
+          "Financement : Eiffel via appel interne UGA 🟡 (deadlines internes oct.–nov. 2026 🟡 proj.).",
+          "Deadline 2027 : proj. ~15 janv.–30 avr. 2027 🟡 (cycle 2026 : 15/01–30/04).",
+          "Verdict : plan B francophone solide, HCI (UIS) et graphique (GVR) dans la même candidature.",
+          "URL : https://mosig.imag.fr/"
+        ]},
+        {"titre": "KTH — MSc Interactive Media Technology", "lignes": [
+          "Langue : anglais ; prérequis : BSc CS/IT/media tech, IELTS ~6.5 (standard KTH, à revérifier) 🟡.",
+          "Pensum : ⚫ non trouvé — vérifier la page programme KTH.",
+          "Frais : SEK 360 000 le programme 🟡 (2026) + 900 SEK de frais de dossier.",
+          "Financement : KTH Scholarship (waiver total, pas de frais de vie) 🟡 + SI : Colombie sur la liste des 34 pays 🟡 mais 3 000 h d'expérience pro exigées.",
+          "Deadline : 15 janv. 2027 🟡 via universityadmissions.se (portail ouvre ~16 oct. 2026) ; portail SI ~9–25 févr. 2027 🟡 (patron 2026).",
+          "Note : la même candidature du 15 janv. couvre le successeur de Skövde SEGMA — mutualiser.",
+          "Verdict : route suédoise à double levier de bourse.",
+          "URL : https://www.kth.se/en/studies/master/interactive-media-technology"
+        ]},
+        {"titre": "Université de Montréal (DIRO) — Maîtrise en informatique", "lignes": [
+          "Langue : français (preuve exigée, seuil ⚫ — vérifier admission.umontreal.ca).",
+          "Pensum : ⚫ non trouvé — vérifier https://diro.umontreal.ca/programmes-cours/cycles-superieurs/maitrise-en-informatique/.",
+          "Frais : ⚫ non trouvés — calculateur https://registraire.umontreal.ca/droits-de-scolarite/calculateur-des-droits-de-scolarite/.",
+          "Financement : bourse d'exemption UdeM (totale en maîtrise recherche) 🟡 + assistanats via directeur — démarcher dès l'automne 2026.",
+          "Deadline : 1er févr. 2027 🟡 pour l'automne ; prévoir 3-6 mois de CAQ + permis d'études.",
+          "Post-diplôme : PGWP jusqu'à 3 ans 🟡 — la meilleure porte migratoire du dossier.",
+          "Verdict : voie migratoire la plus solide, coût maîtrisé via exemption.",
+          "URL : https://admission.umontreal.ca/programmes/maitrise-en-informatique/"
+        ]},
+        {"titre": "KAIST (GSCT) — MS in Culture Technology", "lignes": [
+          "Durée/langue : master en Corée ; seuil d'anglais ⚫ non trouvé — vérifier admission.kaist.ac.kr.",
+          "Pensum : ⚫ non trouvé — vérifier https://ct.kaist.ac.kr/.",
+          "Frais : couverts — tous les admis internationaux : scolarité + ~400 000 KRW/mois 🟡 (secondaire, revérifier sur admission.kaist.ac.kr).",
+          "Financement : bourse KAIST automatique 🟡 ou GKS-G (complète + année de coréen, ~févr. 2027) 🟡.",
+          "Deadline : Fall 2027 — early ~déc. 2026, regular ~mars 2027 🟡 (secondaire).",
+          "Verdict : financement automatique des admis, option Asie solide à confirmer sur source officielle.",
+          "URL : https://ct.kaist.ac.kr/"
+        ]},
+        {"titre": "HKUST (Guangzhou) — MPhil Computational Media and Arts", "lignes": [
+          "Durée/langue : MPhil de recherche jusqu'à 2 ans, couvrant HCI + AR/VR + visualisation de données 🟡 ; seuil d'anglais ⚫.",
+          "Pensum : ⚫ détail non trouvé — vérifier https://cma.hkust-gz.edu.cn/.",
+          "Frais : couverts par le studentship 🟡 (official-via-search).",
+          "Financement : Postgraduate Studentship intégral jusqu'à 2 ans 🟡.",
+          "Deadline : admissions au fil de l'eau — candidater tôt 🟡.",
+          "Verdict : meilleur hybride financé HCI+visu d'Asie ; la recherche accessibilité parcs y est l'argument de vente.",
+          "URL : https://cma.hkust-gz.edu.cn/"
+        ]},
+        {"titre": "UPF — MU Sistemas Cognitivos y Medios Interactivos (CSIM)", "lignes": [
+          "Durée/langue : 60 ECTS, 1 an, anglais 🟡 ; admission depuis toute discipline ; CV + lettre en anglais ; seuil IELTS ⚫.",
+          "Pensum : ⚫ non détaillé — vérifier https://www.upf.edu/web/csim.",
+          "Prérequis : accès au titre colombien sans homologation ; étude d'équivalence UPF 218,15 € 🟡 (2026-27).",
+          "Frais : non-UE ⚫ (fixés par l'UPF) ; UE ≈ 1 162 €/60 ECTS 🟡 (2025-26).",
+          "Financement : ayudas internes « descuento sustancial » sans restriction de nationalité 🟡 (montant ⚫) ; Carolina (catalogue ⚫).",
+          "Deadline 2027 : ⚫ non trouvée — vérifier https://www.upf.edu/web/masters/calendari-de-preinscripcio.",
+          "Verdict : porte espagnole flexible et potentiellement bon marché, mais trop de ⚫ à lever.",
+          "URL : https://www.upf.edu/web/csim"
+        ]}
+      ],
+      "biblioComplete": [
+        "Norman — *The Design of Everyday Things* (éd. rév. 2013 ; ES : *La psicología de los objetos cotidianos*) [FR+EN+ES]",
+        "Sharp, Rogers & Preece — *Interaction Design* (6e éd. ~2023) [FR+EN+ES]",
+        "Lazar et al. — *Research Methods in HCI* (2e éd. 2017) [FR+EN+ES]",
+        "Shneiderman — *Designing the User Interface* (6e éd. 2016) [FR]",
+        "Horton & Quesenbery — *A Web for Everyone* (2014) [FR]",
+        "Cooper et al. — *About Face* (4e éd. 2014) [EN]",
+        "Kat Holmes — *Mismatch* (2018) — design inclusif [EN]",
+        "Nielsen — heuristiques d'usabilité [ES]",
+        "Fitts (1954) — paper fondateur",
+        "Wobbrock et al. — « Ability-Based Design » (CACM 2018) [FR]",
+        "Conférences : CHI, UIST, ASSETS, CSCW, IUI (human-AI), IHM/AFIHM, Interacción/AIPO",
+        "Revues : TOCHI, IJHCS",
+        "MOOC : Interaction Design — UC San Diego/Scott Klemmer (Coursera, sous-titres ES) [FR+ES]",
+        "MOOC : HCI Georgia Tech (edX) [EN]",
+        "Gratuit : W3C-WAI / WCAG (partiellement en français) [FR] ; NN/g [FR+EN+ES]"
+      ]
+    },
+    {
+      "nom": "Visualisation scientifique et médicale",
+      "definition": [
+        "Transformer des données scientifiques et médicales en représentations visuelles interactives (D3, Observable, VTK, 3D Slicer).",
+        "Versant médical : anatomie 3D, imagerie, rendu temps réel, XR (Preim & Botha ; Real-Time Rendering).",
+        "Fondements : perception visuelle (Ware), analyse et design des vues (Munzner), intégrité graphique (Tufte).",
+        "Communautés : IEEE VIS, EuroVis, SIGGRAPH ; revue IEEE TVCG ; équipe phare à suivre : AVIZ (Inria Saclay)."
+      ],
+      "alignement": [
+        {"priorite": "① Impact concret", "score": 2, "note": "L'impact passe par les cliniciens et décideurs qui lisent les visualisations — réel mais plus indirect que le terrain HCI."},
+        {"priorite": "② Création visuelle", "score": 3, "note": "C'est le domaine où Blender, le rendu 3D et le design visuel sont le métier lui-même."},
+        {"priorite": "③ Problèmes techniques", "score": 3, "note": "Rendu temps réel, pipelines d'imagerie, photonique et XR (IMLEX) : le versant le plus exigeant techniquement du dossier."},
+        {"priorite": "④ Cerveau & monde", "score": 3, "note": "Perception visuelle et mise en image de la science et de la médecine : rendre le monde intelligible est l'objet même du champ."}
+      ],
+      "quotidienMaster": [
+        "Cours de rendu, perception et visualisation d'information ; pensums détaillés ⚫ pour la quasi-totalité des programmes.",
+        "Projets pratiques : notebooks D3/Observable, outils médicaux (3D Slicer/VTK), modèles anatomiques Blender.",
+        "Pour IMLEX : imagerie, photonique, XR, avec mobilité FI → BE → FR + semestre au Japon (Toyohashi) 🟡.",
+        "Lecture des best papers IEEE VIS/EuroVis et de IEEE TVCG."
+      ],
+      "quotidienPro": [
+        "Ingénierie de visualisation de données (web, D3) pour la science, la santé, l'urbain.",
+        "Visualisation médicale : modèles et animations 3D anatomiques, outils pédagogiques et chirurgicaux, XR.",
+        "Recherche quantitative et dataviz — le versant vers lequel la demande se déplace (synthèse qualitative du dossier).",
+        "Versant recherche : publier à IEEE VIS/EuroVis, rejoindre des équipes type AVIZ (Inria Saclay)."
+      ],
+      "marche2026": [
+        "Aucun chiffre salarial spécifique visu sourcé dans le dossier ⚫ — la passe EN a volontairement refusé tout chiffre non sourçable.",
+        "La demande générale se déplace vers la recherche quantitative, l'accessibilité et la human-AI interaction (synthèse FR+EN+ES).",
+        "Signal de coût : TU Wien à ~726,72 €/semestre 🟡 (2025-26) = meilleur rapport frais/qualité du domaine."
+      ],
+      "biblio": [
+        "Munzner — *Visualization Analysis & Design* (2014) : la grammaire du champ, concordance 3 passes.",
+        "Tufte — *The Visual Display of Quantitative Information* (1983/2001) : l'intégrité graphique.",
+        "Wilke — *Fundamentals of Data Visualization* (2019, gratuit en ligne) : porte d'entrée pratique.",
+        "Preim & Botha — *Visual Computing for Medicine* (2e éd. 2013) : LE versant médical, avancé.",
+        "Ware — *Information Visualization: Perception for Design* (4e éd. 2021) : la perception.",
+        "Bostock et al. — « D3 » (IEEE TVCG 2011) : le paper de l'outil dominant du web."
+      ],
+      "parcours20h": [
+        "Wilke, *Fundamentals of Data Visualization* en ligne (5-6 h)",
+        "Refaire des notebooks D3/Observable puis visualiser SES données des parcs de Kennedy — carte interactive = livrable-test (8 h)",
+        "Munzner ch. 1-3 (4 h)",
+        "Best papers IEEE VIS récents sur l'urbain/la santé (3 h)",
+        "Variante médicale : remplacer 6 h par un modèle/animation anatomique Blender (ex. mécanique du genou)."
+      ],
+      "programmes": [
+        {"univ": "Consortium IMLEX (UEF, KU Leuven, UJM + Toyohashi)", "intitule": "Erasmus Mundus MSc Imaging and Light in Extended Reality", "pays": "FI/BE/FR + JP", "frais": "couverts par bourse EM (mieux classés) 🟡 ; hors bourse ⚫", "fraisBadge": "🟡", "deadline": "réouverture déc. 2026, ~mi/fin janv. 2027 🟡", "deadlineBadge": "🟡", "financement": "bourse EM complète (scolarité + allocation + voyage)", "finBadge": "🟡", "url": "https://www.imlex.org/how-to-apply/", "retenu": true, "verdict": "Priorité n°1 visualisation : profil CS+Blender+maths = cible type ; Japon sans MEXT."},
+        {"univ": "TU Wien", "intitule": "MSc Visual Computing", "pays": "Autriche", "frais": "726,72 €/semestre 🟡 (≈ 2 900 € le diplôme, 2025-26)", "fraisBadge": "🟡", "deadline": "proj. ~juil.–oct. 2027 🟡 (WS 2026/27 : 06/07–31/10)", "deadlineBadge": "🟡", "financement": "coût si bas que Colfuturo suffit ; OeAD ⚫", "finBadge": "🟡", "url": "https://www.tuwien.at/en/studies", "retenu": true, "verdict": "Meilleur rapport frais/qualité du domaine visu — auto-finançable."},
+        {"univ": "OvG Univ. Magdeburg", "intitule": "MSc Medical Systems Engineering", "pays": "Allemagne", "frais": "frais semestriels publics uniquement 🟡 (montant ⚫)", "fraisBadge": "🟡", "deadline": "⚫ non trouvée", "deadlineBadge": "⚫", "financement": "gratuité allemande ; alerte prérequis ECTS", "finBadge": "🟡", "url": "https://www.ovgu.de/unimagdeburg/en/Master-p-48820.html", "retenu": false, "verdict": "Exige ≥20 ECTS électronique + ≥10 ECTS bio 🟡 — probablement manquants au titre colombien."},
+        {"univ": "Glasgow School of Art + Univ. of Glasgow", "intitule": "MSc Medical Visualisation & Human Anatomy", "pays": "UK", "frais": "⚫ frais internationaux non trouvés", "fraisBadge": "⚫", "deadline": "⚫ 2027/28 non publié (patron UK : oct. 2026–printemps)", "deadlineBadge": "⚫", "financement": "Chevening-éligible (choix rare, peu concurrentiel)", "finBadge": "🟡", "url": "https://www.gsa.ac.uk/postgraduate-degrees/medical-visualisation-human-anatomy", "retenu": true, "verdict": "Fusion anatomie + 3D unique ; accepte profils science OU art avec preuve 3D (Blender) 🟡."},
+        {"univ": "UIC Chicago", "intitule": "MS Biomedical Visualization", "pays": "USA", "frais": "⚫ non trouvés", "fraisBadge": "⚫", "deadline": "⚫ non trouvée", "deadlineBadge": "⚫", "financement": "aucun 🔴 ; portfolio dessin académique + GRE exigés", "finBadge": "🔴", "url": "https://catalog.uic.edu/gcat/colleges-schools/applied-health-sciences/bvis/ms", "retenu": false, "verdict": "Écarté pour 2027 : portfolio dessin + GRE + zéro financement."},
+        {"univ": "URJC", "intitule": "MU Informática Gráfica, Juegos y Realidad Virtual", "pays": "Espagne", "frais": "~5 044 €/60 ECTS 🟡 (precios Madrid — à vérifier)", "fraisBadge": "🟡", "deadline": "⚫ (admission URJC ~févr.–juil.)", "deadlineBadge": "⚫", "financement": "Carolina (catalogue ⚫) + Colfuturo ; en espagnol (pas d'IELTS)", "finBadge": "🟡", "url": "https://www.urjc.es/estudios/master/908-informatica-grafica-juegos-y-realidad-virtual", "retenu": true, "verdict": "Sans barrière d'anglais, unit Blender/3D/mocap et ingénierie ; plus divertissement que médical."}
+      ],
+      "fusion": [
+        "Blender/3D + data science + passage direct de Svelte à D3/Observable : la stack est déjà là.",
+        "Démo « mouvement » : pipeline Rokoko → Blender → visualisation web des amplitudes articulaires.",
+        "La carte interactive d'accessibilité des parcs de Kennedy = livrable-test du parcours 20 h ET pièce de portfolio visu urbaine.",
+        "Déclinaison mémoire : visualisation de données urbaines d'accessibilité (HKUST-GZ CMA, TU Wien) ou carto multi-échelle.",
+        "Profil CS + Blender + maths = exactement la cible d'IMLEX (imagerie, photonique, XR)."
+      ],
+      "risque": [
+        "Niche étroite : 6 programmes trouvés seulement, dont 2 fermés d'avance (UIC : portfolio dessin + GRE ; Magdeburg : ~30 ECTS bio/élec manquants 🟡).",
+        "Aucun salaire ni volume d'emploi sourcé ⚫ : elle s'engagerait dans un marché dont le dossier n'a pas pu mesurer la taille.",
+        "Tout repose sur IMLEX : sans la bourse EM, le repli est l'auto-financement (TU Wien) pour un diplôme pointu sans écosystème d'embauche démontré.",
+        "GSA Glasgow dépend entièrement de Chevening, dont les dates 2027/28 sont ⚫ et l'exigence est ~2 ans (2 800 h) d'expérience."
+      ],
+      "annexes": [
+        {"titre": "Consortium IMLEX — Erasmus Mundus MSc Imaging and Light in Extended Reality", "lignes": [
+          "Durée/langue : MSc conjoint 120 ECTS, 2 ans, anglais 🟡 ; UEF (coord.), KU Leuven, UJM Saint-Étienne + semestre à Toyohashi (Japon).",
+          "Pensum : imagerie, photonique, XR — le point d'intersection « visu scientifique + XR » 🟡 ; détail ⚫ (site en 403 lors de la passe).",
+          "Prérequis : bachelor CS/EE/photonique/apparenté ; seuil d'anglais ⚫ non trouvé — vérifier https://www.imlex.org/how-to-apply/.",
+          "Frais : couverts par la bourse EM pour les mieux classés 🟡 ; coût hors bourse ⚫.",
+          "Financement : bourse Erasmus Mundus complète (scolarité + allocation + voyage) 🟡.",
+          "Deadline 2027 : réouverture décembre 2026, clôture attendue ~mi/fin janvier 2027 🟡 (cycle précédent : 21/01/2026).",
+          "Verdict : profil CS + Blender + maths = cible type ; inclut le Japon sans dépendre de MEXT. À ne pas manquer.",
+          "URL : https://www.imlex.org/how-to-apply/"
+        ]},
+        {"titre": "TU Wien — MSc Visual Computing", "lignes": [
+          "Durée/langue : ⚫ détails non trouvés — vérifier https://www.tuwien.at/en/studies.",
+          "Pensum : ⚫ non trouvé — vérifier la page du programme.",
+          "Prérequis : ⚫ non trouvés.",
+          "Frais : 726,72 €/semestre 🟡 (taux 2025-26) ≈ 2 900 € le diplôme entier.",
+          "Financement : coût si bas que Colfuturo suffit 🟡 ; bourses OeAD ⚫ non vérifiées.",
+          "Deadline : proj. ~juil.–oct. 2027 🟡 (WS 2026/27 : 06/07–31/10/2026).",
+          "Verdict : meilleur rapport frais/qualité du domaine visu — la voie auto-financée réaliste.",
+          "URL : https://www.tuwien.at/en/studies"
+        ]},
+        {"titre": "Glasgow School of Art + Univ. of Glasgow — MSc Medical Visualisation & Human Anatomy", "lignes": [
+          "Durée/langue : 12 mois, anglais ; 3D/VR + salle de dissection 🟡.",
+          "Pensum : ⚫ détail non trouvé — vérifier https://www.gsa.ac.uk/postgraduate-degrees/medical-visualisation-human-anatomy.",
+          "Prérequis : accepte les profils science OU art avec preuve 3D (Blender pertinent) 🟡 ; exigences de portfolio ⚫.",
+          "Frais : ⚫ non trouvés — vérifier https://www.gsa.ac.uk.",
+          "Financement : Chevening-éligible 🟡 (choix rare et peu concurrentiel) ; candidature Chevening ~août–oct./nov. 2026.",
+          "Deadline : ⚫ 2027/28 non publié (patron UK : oct. 2026–printemps 2027).",
+          "Verdict : la fusion anatomie + 3D la plus littérale du dossier, uniquement viable via Chevening.",
+          "URL : https://www.gsa.ac.uk/postgraduate-degrees/medical-visualisation-human-anatomy"
+        ]},
+        {"titre": "URJC — MU Informática Gráfica, Juegos y Realidad Virtual", "lignes": [
+          "Durée/langue : en espagnol — pas d'IELTS requis 🟡.",
+          "Pensum : unit Blender/3D/mocap et ingénierie 🟡 ; plus orienté divertissement que médical.",
+          "Prérequis : ⚫ détail non trouvé ; contact : master.infgrafica@urjc.es.",
+          "Frais : ~5 044 €/60 ECTS 🟡 (precios Madrid — à vérifier, registre 🔴 sur les prix/crédit).",
+          "Financement : Carolina (catalogue 2027-28 ⚫) + Colfuturo.",
+          "Deadline : ⚫ non trouvée (admission URJC ~févr.–juil.).",
+          "Verdict : option hispanophone sans barrière d'anglais, coût moyen, moins alignée santé.",
+          "URL : https://www.urjc.es/estudios/master/908-informatica-grafica-juegos-y-realidad-virtual"
+        ]}
+      ],
+      "biblioComplete": [
+        "Munzner — *Visualization Analysis & Design* (2014) [FR+EN+ES]",
+        "Tufte — *The Visual Display of Quantitative Information* (1983/2001) [FR+EN+ES]",
+        "Wilke — *Fundamentals of Data Visualization* (2019, gratuit : https://clauswilke.com/dataviz/) [FR+EN+ES]",
+        "Preim & Botha — *Visual Computing for Medicine* (2e éd. 2013) [FR+EN]",
+        "Ware — *Information Visualization: Perception for Design* (4e éd. 2021) [FR]",
+        "Akenine-Möller et al. — *Real-Time Rendering* (4e éd. 2018) [EN]",
+        "Bostock et al. — « D3 » (IEEE TVCG 2011)",
+        "Heer & Shneiderman — « Interactive Dynamics for Visual Analysis » (2012) [FR]",
+        "Conférences : IEEE VIS, EuroVis, SIGGRAPH ; revue : IEEE TVCG",
+        "Équipe à suivre : AVIZ (Inria Saclay) [FR]",
+        "MOOC : Coursera « Data Visualization » (UIUC/UW)",
+        "Cours vidéo de Munzner (UBC, YouTube) [FR]",
+        "Tutoriels 3D Slicer/VTK [EN]",
+        "Observable + The Pudding [FR]",
+        "3Blue1Brown, Nucleus Medical Media, Sebastian Lague [EN]"
+      ]
+    },
+    {
+      "nom": "Serious games (santé, réhabilitation, éducation)",
+      "definition": [
+        "Concevoir des jeux dont le but premier n'est pas le divertissement : santé, réhabilitation, formation, éducation.",
+        "Prototypage sur moteurs (Godot/Unity/WebGL), mocap et estimation de pose (MediaPipe) pour les exergames.",
+        "Évaluer l'efficacité clinique/pédagogique — le point faible chronique du champ, donc une porte d'entrée recherche.",
+        "Foyer académique : CHI PLAY (le pont vers HCI), JMIR Serious Games, Games for Health, FDG, DiGRA."
+      ],
+      "alignement": [
+        {"priorite": "① Impact concret", "score": 3, "note": "Les exergames de réhabilitation testés avec des patients (axe UPC–Institut Guttmann) agissent directement sur la santé de personnes réelles."},
+        {"priorite": "② Création visuelle", "score": 3, "note": "Game design, art, 3D et mocap : la création (Schell, Rules of Play) est au centre du quotidien."},
+        {"priorite": "③ Problèmes techniques", "score": 2, "note": "Moteurs, mocap et estimation de pose sont techniques, mais beaucoup de programmes (dont RE_PLAY) sont design/culture plutôt qu'ingénierie 🟡."},
+        {"priorite": "④ Cerveau & monde", "score": 2, "note": "Motricité, équilibre et apprentissage : la biomécanique du mouvement y est un objet d'étude appliqué."}
+      ],
+      "quotidienMaster": [
+        "Conception et prototypage itératif de jeux ; game jams (Global Game Jam en janvier).",
+        "Pour RE_PLAY : S1 Lusófona Lisbonne → S2 LUCA (arts) → S3 Aalto, thèse S4 🟡 — mais MA orienté design/culture, pas ingénierie 🟡.",
+        "Études d'efficacité avec utilisateurs/patients (exergames, réhabilitation) et post-mortems façon CHI PLAY.",
+        "Lecture de JMIR Serious Games et Games for Health Journal."
+      ],
+      "quotidienPro": [
+        "Studios et labos serious games santé/formation : créneau plus petit mais plus stable que le jeu grand public.",
+        "Jeu vidéo grand public : encore marqué par les vagues de licenciements 2023-2025.",
+        "Rôles hybrides : conception d'exergames, développement, évaluation d'efficacité en contexte clinique/éducatif.",
+        "Stratégie la plus sûre selon le dossier : spécialisation d'un master HCI plutôt qu'identité unique (convergence FR+EN)."
+      ],
+      "marche2026": [
+        "Le jeu vidéo grand public reste marqué par les vagues de licenciements 2023-2025.",
+        "Le créneau serious games santé/formation est plus petit mais plus stable.",
+        "Aucun chiffre salarial serious games sourcé dans le dossier ⚫.",
+        "Signal de marché : le seul master européen nommé « Serious Games » (Skövde SEGMA) est remplacé dès l'automne 2026 (contenu ⚫)."
+      ],
+      "biblio": [
+        "Salen & Zimmerman — *Rules of Play* (2003/2004) : la théorie fondatrice du game design.",
+        "Schell — *The Art of Game Design* (3e éd. 2019) : les « lentilles », l'outil de travail quotidien.",
+        "Dörner et al. (éds.) — *Serious Games: Foundations, Concepts and Practice* (2016) : LE manuel académique du champ.",
+        "Michael & Chen — *Serious Games: Games That Educate, Train, and Inform* (2005/2006) : texte fondateur, daté.",
+        "McGonigal — *Reality Is Broken* (2011) : le plaidoyer grand public du jeu utile."
+      ],
+      "parcours20h": [
+        "Schell, lentilles ch. 1-10 (4-5 h)",
+        "Lire 3-4 articles JMIR Serious Games sur les exergames de réhabilitation (2-3 h)",
+        "Prototyper un micro-jeu de réhabilitation/équilibre piloté par mocap Rokoko ou pose webcam MediaPipe (Godot/Unity/WebGL), testé avec 3-5 personnes (10-12 h)",
+        "Post-mortem façon CHI PLAY (2 h)",
+        "Test le plus discriminant des trois : si le prototypage est une corvée, rester sur HCI/visualisation."
+      ],
+      "programmes": [
+        {"univ": "Consortium RE_PLAY (Lusófona, LUCA, Aalto)", "intitule": "Erasmus Mundus MA in GAMES", "pays": "PT/BE/FI", "frais": "couverts par bourse EM (mieux classés) 🟡", "fraisBadge": "🟡", "deadline": "proj. oct. 2026–mi-janv. 2027 🟡 (patron 2026)", "deadlineBadge": "🟡", "financement": "bourse EM complète 24 mois", "finBadge": "🟡", "url": "https://www.replaymasters.eu/", "retenu": true, "verdict": "Priorité n°1 serious games — mais MA design/culture 🟡 : vérifier le plan de cours."},
+        {"univ": "CNAM-ENJMIN", "intitule": "Master JMIN (spécialités dont ergonomie/UX)", "pays": "France", "frais": "⚫ (a priori droits nationaux 3 941 €/an 🟡, 2026-27)", "fraisBadge": "⚫", "deadline": "proj. dépôt concours ~fin janv. 2027 🟡 (2026 : 23/01)", "deadlineBadge": "🟡", "financement": "Eiffel théorique ⚫ pratique ; Colfuturo", "finBadge": "🟡", "url": "https://enjmin.cnam.fr/", "retenu": true, "verdict": "École publique de référence du jeu vidéo ; concours obligatoire en français."},
+        {"univ": "INU Champollion (Albi)", "intitule": "Master AMINJ parcours GAME (serious/learning games)", "pays": "France", "frais": "⚫ non trouvés", "fraisBadge": "⚫", "deadline": "⚫ non trouvée", "deadlineBadge": "⚫", "financement": "⚫ non trouvé", "finBadge": "⚫", "url": "https://www.univ-jfc.fr/masters/audiovisuel-medias-interactifs-numeriques-jeu", "retenu": false, "verdict": "Rare master serious/learning games francophone, mais tout est ⚫."},
+        {"univ": "Utrecht University", "intitule": "MSc Game and Media Technology", "pays": "Pays-Bas", "frais": "25 306 €/an 🟡 (2026-27)", "fraisBadge": "🟡", "deadline": "⚫ (patron NL ~1 févr.–1 avr.)", "deadlineBadge": "⚫", "financement": "Colfuturo seulement — pas de bourse interne vérifiée", "finBadge": "🟡", "url": "https://www.uu.nl/en/masters/game-and-media-technology", "retenu": false, "verdict": "Très cher sans levier de bourse identifié."},
+        {"univ": "IT University of Copenhagen", "intitule": "MSc Games (Design/Technology)", "pays": "Danemark", "frais": "⚫ montant non trouvé", "fraisBadge": "⚫", "deadline": "🔴 ~1er mars vs 15 mars 2027 (sources en conflit)", "deadlineBadge": "🔴", "financement": "Danish State Scholarship : 3-4/an, automatique 🟡", "finBadge": "🟡", "url": "https://en.itu.dk/", "retenu": true, "verdict": "Peu de bourses mais attribution automatique ; planifier sur le 1er mars par prudence."},
+        {"univ": "TH Köln — Cologne Game Lab", "intitule": "MA Digital Games", "pays": "Allemagne", "frais": "🔴 ~265 €/sem. vs 2 500 €/sem. non-UE (conflit ×10)", "fraisBadge": "🔴", "deadline": "31 mars 2027 🟡 (WS, official-via-search)", "deadlineBadge": "🟡", "financement": "gratuité/frais bas si la 1re source est vraie", "finBadge": "🟡", "url": "https://colognegamelab.de/study-programs/post-graduate-programs/digital-games-ma/", "retenu": false, "verdict": "Viabilité suspendue à un écart de frais ×10 — vérifier th-koeln.de d'abord."},
+        {"univ": "Aalto University", "intitule": "Game Design and Development (MSc/MA)", "pays": "Finlande", "frais": "~15 000 €/an 🟡 (standard Aalto, non vérifié programme)", "fraisBadge": "🟡", "deadline": "7 déc. 2026 – 5 janv. 2027 🟡 (cycle 2027 confirmé, 1 passe)", "deadlineBadge": "🟡", "financement": "Aalto Cat. A 100 % / Finland Scholarship (waiver + 5 000 €)", "finBadge": "🟡", "url": "https://www.aalto.fi/en/study-options/game-design-and-development-master-of-science-technology", "retenu": true, "verdict": "Une des seules vraies dates 2027 du dossier + waivers crédibles."},
+        {"univ": "Univ. of Skövde", "intitule": "SEGMA → successeur « Game Development »", "pays": "Suède", "frais": "ancien : ~12 421 € 🟡 (secondaire)", "fraisBadge": "🟡", "deadline": "15 janv. 2027 🟡 (portail suédois)", "deadlineBadge": "🟡", "financement": "SI (Colombie éligible) ; contenu du successeur ⚫", "finBadge": "🟡", "url": "https://www.his.se/en/education/game-development/serious-games-masters-programme-segma/", "retenu": true, "verdict": "Mutualisable avec KTH le 15 janv. — à ne considérer qu'après vérification du successeur."},
+        {"univ": "UPC (ETSEIB + Institut Guttmann)", "intitule": "MU Neuroingeniería y Rehabilitación (90 ECTS)", "pays": "Espagne", "frais": "≈9 496 € non-UE 🟡 (fiche 2025-26)", "fraisBadge": "🟡", "deadline": "⚫ non trouvée — vérifier ETSEIB", "deadlineBadge": "⚫", "financement": "Carolina (catalogue ⚫) + Colfuturo", "finBadge": "🟡", "url": "https://etseib.upc.edu/es/futuros-estudiantes/que-estudios/master-universitario-en-neuroingenieria-y-rehabilitacion", "retenu": true, "verdict": "Le programme qui fusionne TOUT le profil ; point faible : financement non structurel."},
+        {"univ": "Universidade da Coruña", "intitule": "MU Diseño, Desarrollo y Comercialización de Videojuegos", "pays": "Espagne", "frais": "⚫ (Galice = région bon marché)", "fraisBadge": "⚫", "deadline": "⚫ non trouvée", "deadlineBadge": "⚫", "financement": "Carolina (catalogue ⚫) + prácticas conventionnées", "finBadge": "🟡", "url": "https://estudos.udc.es/es/study/detail/4529v01", "retenu": false, "verdict": "Option hispanophone bon marché mais trop de ⚫ et orientation commerciale."},
+        {"univ": "UGR (Granada)", "intitule": "MU Desarrollo del Software (UE « Videojuegos para la Sociedad »)", "pays": "Espagne", "frais": "~1 800 €/60 ECTS 🟡 (le moins cher trouvé)", "fraisBadge": "🟡", "deadline": "⚫ non trouvée", "deadlineBadge": "⚫", "financement": "coût quasi nul", "finBadge": "🟡", "url": "https://masteres.ugr.es/desarrollo-software/", "retenu": false, "verdict": "Le moins cher du dossier, mais serious games réduit à une seule UE."}
+      ],
+      "fusion": [
+        "La mocap Rokoko est exactement l'outil des labos de réhabilitation motrice ; elle permet une « vertical slice » de jeu en solo.",
+        "Danse + biomécanique = littératie du mouvement humain : avantage rare en jeux de réhab et interaction incarnée, vocabulaire clinique crédible.",
+        "Data science → évaluation d'efficacité des serious games, le point faible chronique du champ = porte d'entrée recherche.",
+        "Projet clé : micro-exergame équilibre/mobilité (MediaPipe ou Rokoko ; Godot/Unity/WebGL) testé avec 3-5 personnes.",
+        "Angle mémoire : exergame de réhabilitation calibré par biomécanique ou jeu géolocalisé d'audit participatif (UPC-Guttmann, Utrecht GMT, ITU, Aalto, KAIST)."
+      ],
+      "risque": [
+        "Le jeu vidéo sort de vagues de licenciements 2023-2025 et le créneau serious games est petit : en faire une identité unique est le pari le plus fragile du dossier.",
+        "Le seul master européen nommé « Serious Games » (Skövde SEGMA) disparaît dès l'automne 2026 — un signal de marché, pas un détail administratif.",
+        "RE_PLAY, la seule voie pleinement financée, est un MA design/culture, pas ingénierie 🟡 : risque de sous-employer deux ans son profil technique.",
+        "Si les 10-12 h de prototypage du test s'avèrent une corvée, le dossier lui-même conclut : rester sur HCI/visualisation."
+      ],
+      "annexes": [
+        {"titre": "Consortium RE_PLAY — Erasmus Mundus MA in GAMES", "lignes": [
+          "Durée/langue : MA 120 ECTS, 2 ans, anglais 🟡 ; parcours Lusófona Lisbonne (S1) → LUCA School of Arts (S2) → Aalto (S3), thèse S4.",
+          "Pensum : ⚫ plan de cours à vérifier — MA orienté design/culture, pas ingénierie 🟡.",
+          "Prérequis : bachelor game design/arts/informatique ; IELTS 6.0 / TOEFL 80 🟡 (secondaire) — barre d'anglais basse, CS accepté.",
+          "Frais : couverts par la bourse EM pour les mieux classés 🟡.",
+          "Financement : bourse Erasmus Mundus complète 24 mois 🟡.",
+          "Deadline 2027 : ⚫ non publiée — patron : ouverture oct. 2026, clôture mi-janv. 2027 🟡 ; surveiller replaymasters.eu dès sept. 2026.",
+          "Verdict : la voie serious games financée n°1, sous réserve du contenu réel.",
+          "URL : https://www.replaymasters.eu/"
+        ]},
+        {"titre": "CNAM-ENJMIN — Master JMIN", "lignes": [
+          "Durée/langue : master public ; concours obligatoire en français 🟡 (sujet ~déc. 2026, dépôt ~fin janv. 2027 proj.).",
+          "Pensum : spécialités dont ergonomie/UX = l'angle serious games santé 🟡 ; détail ⚫.",
+          "Prérequis : concours ; seuil de français ⚫ non trouvé — vérifier enjmin.cnam.fr.",
+          "Frais : ⚫ non trouvés pour le Cnam (a priori droits nationaux 3 941 €/an 🟡, 2026-27).",
+          "Financement : Eiffel théorique (établissement public) mais pratique ⚫ ; Colfuturo.",
+          "Deadline : proj. dépôt ~fin janv. 2027 🟡 (2026 : 23/01).",
+          "Verdict : l'école publique de référence du jeu vidéo français, si le français tient au concours.",
+          "URL : https://enjmin.cnam.fr/"
+        ]},
+        {"titre": "Aalto University — Game Design and Development (MSc/MA)", "lignes": [
+          "Durée/langue : MSc/MA finlandais, anglais ; détail du pensum ⚫ — vérifier la page Aalto.",
+          "Prérequis : ⚫ non détaillés dans le dossier.",
+          "Frais : ~15 000 €/an 🟡 (standard Aalto, non vérifié pour ce programme).",
+          "Financement : waivers Cat. A 100 % / Cat. B + Finland Scholarship (waiver + 5 000 €) 🟡.",
+          "Deadline : 7 déc. 2026 – 5 janv. 2027 🟡 — cycle 2027 confirmé par une passe, une des seules vraies dates du dossier.",
+          "Verdict : fenêtre certaine + bourses internes crédibles = candidature à verrouiller tôt.",
+          "URL : https://www.aalto.fi/en/study-options/game-design-and-development-master-of-science-technology"
+        ]},
+        {"titre": "IT University of Copenhagen — MSc Games (Design/Technology)", "lignes": [
+          "Durée/langue : MSc, deux pistes (Design/Technology) ; détail ⚫ — vérifier en.itu.dk.",
+          "Prérequis : ⚫ — voir Admission-requirements-Games sur en.itu.dk.",
+          "Frais : ⚫ montant non trouvé — vérifier https://en.itu.dk/Programmes/MSc-Programmes/Applying-to-a-MSc-programme/Non-EU-EOES.",
+          "Financement : Danish State Scholarship — 3-4 par an, attribution automatique 🟡 (secondaire).",
+          "Deadline : 🔴 ~1er mars vs 15 mars 2027 (sources en conflit) — planifier sur le 1er mars par prudence.",
+          "Verdict : peu de bourses mais automatiques ; à garder si le calendrier se confirme.",
+          "URL : https://en.itu.dk/"
+        ]},
+        {"titre": "Univ. of Skövde — SEGMA → successeur « Game Development »", "lignes": [
+          "Programme : le master SEGMA « Serious Games » est remplacé dès l'automne 2026 par un successeur au contenu ⚫ — vérifier https://www.his.se.",
+          "Pensum : ⚫ inconnu pour le successeur — condition préalable à toute candidature.",
+          "Prérequis : ⚫ non trouvés.",
+          "Frais : ancien programme ~12 421 € 🟡 (secondaire).",
+          "Financement : SI Scholarship — la Colombie est éligible 🟡 (3 000 h d'expérience pro exigées).",
+          "Deadline : 15 janv. 2027 🟡 via le portail suédois — la même candidature couvre KTH : mutualiser.",
+          "Verdict : option d'appoint suédoise, uniquement après vérification du contenu du successeur.",
+          "URL : https://www.his.se/en/education/game-development/serious-games-masters-programme-segma/"
+        ]},
+        {"titre": "UPC (ETSEIB) + Institut Guttmann — MU Neuroingeniería y Rehabilitación", "lignes": [
+          "Durée/langue : 90 ECTS (1,5 an), présentiel ; langue probable castillan/anglais mixte ⚫ à confirmer.",
+          "Pensum : inclut l'UE « Virtual reality and serious games » 🟡 ; reste du plan ⚫ — voir le PDF officiel UPC.",
+          "Prérequis : ingénierie/physique/maths/informatique/médecine/bio/psycho ; anglais B2.2 ; pas de portfolio 🟡.",
+          "Frais : ≈2 490 € UE · ≈9 496 € non-UE 🟡 (fiche 2025-26).",
+          "Financement : Carolina (présence au catalogue 2027-28 ⚫ — croiser dès l'ouverture) ; Colfuturo.",
+          "Deadline 2027 : ⚫ non trouvée — vérifier la page d'accès ETSEIB.",
+          "Verdict : le programme qui fusionne TOUT (serious games + réhab + biomécanique + accessibilité), adossé à un hôpital de référence ; point faible : financement non structurel.",
+          "URL : https://etseib.upc.edu/es/futuros-estudiantes/que-estudios/master-universitario-en-neuroingenieria-y-rehabilitacion"
+        ]}
+      ],
+      "biblioComplete": [
+        "Salen & Zimmerman — *Rules of Play* (2003/2004) [FR+EN+ES]",
+        "Schell — *The Art of Game Design* (3e éd. 2019) [FR+EN+ES]",
+        "Michael & Chen — *Serious Games: Games That Educate, Train, and Inform* (2005/2006) [FR+ES]",
+        "Kapp — *The Gamification of Learning and Instruction* (2012) [FR]",
+        "Dörner et al. (éds.) — *Serious Games: Foundations, Concepts and Practice* (2016) [EN]",
+        "McGonigal — *Reality Is Broken* (2011) [EN]",
+        "Elias, Garfield & Gutschera — *Characteristics of Games* (2012) [EN]",
+        "Revues : JMIR Serious Games (accès libre), Games for Health Journal, Simulation & Gaming",
+        "Conférences : CHI PLAY (le pont vers HCI), FDG, DiGRA, IEEE CoG, Games for Health",
+        "Fun & Serious Game Festival (Bilbao) — plus grand événement hispanophone [ES]",
+        "MOOC : CalArts Game Design (Coursera)",
+        "MIT OCW CMS.611 [EN]",
+        "MOOC : « Serious Gaming » (Erasmus Univ. Rotterdam, Coursera — dispo 2026 à vérifier) [FR]",
+        "GDC Talks, Game Maker's Toolkit, Extra Credits",
+        "Global Game Jam (janvier)"
+      ]
+    }
+  ],
+  "contradictions": [
+    {"sujet": "Condonation Colfuturo", "valeurA": "« jusqu'à ~50 % condonable » (passe FR, via colombie.campusfrance.org, secondaire)", "valeurB": "25 % après la fin du convenio étatal 2026 (passes EN+ES : colfuturo.org, Portafolio, El Tiempo)", "lecture": "EN+ES concordent et datent de 2026 ; la valeur FR reflète l'ancien régime — planifier avec 25 %."},
+    {"sujet": "Frais UCL MSc HCI (overseas)", "valeurA": "£42 700/an (collegedunia, secondaire)", "valeurB": "£37 500/an (gyandhan, secondaire)", "lecture": "Année de validité incertaine des deux côtés — vérifier sur ucl.ac.uk."},
+    {"sujet": "Frais TH Köln — Cologne Game Lab", "valeurA": "~265 €/semestre, frais sociaux seulement (mastersportal)", "valeurB": "1 500 €/sem. UE / 2 500 €/sem. non-UE (mygermanuniversity)", "lecture": "Écart ×10 qui détermine la viabilité — vérifier sur th-koeln.de avant tout."},
+    {"sujet": "Deadline non-UE ITU Copenhague", "valeurA": "~1er mars 2027", "valeurB": "~15 mars 2027", "lecture": "Conflit intra-passe EN — vérifier en.itu.dk et planifier sur le 1er mars par prudence."},
+    {"sujet": "Limite d'âge Fundación Carolina", "valeurA": "« sans limite d'âge » (buscadordebecas, secondaire)", "valeurB": "« <30 ans pour maestría » (Medium, anecdotique)", "lecture": "Non résolu — vérifier les bases officielles 2027-28 sur fundacioncarolina.es."},
+    {"sujet": "Permis post-études Espagne", "valeurA": "12 mois", "valeurB": "24 mois (cohenyaguirre.es, krabogada.com — secondaires)", "lecture": "La réforme 2025 est en cause — vérifier la normativa vigente (extranjería)."},
+    {"sujet": "Prix/crédit másters Madrid (extracommunautaires)", "valeurA": "≈84,07 €/crédit (3e matrícula, Decreto 43/2022)", "valeurB": "grille 19,43/51,75/111,80/154,80 €/cr (possible mélange grado/máster)", "lecture": "Vérifier le PDF officiel UAM precios 2025-26 avant de budgéter UAM/URJC."}
+  ],
+  "nonVerifies": [
+    "Calendrier Eiffel 2027-28 (non publié) — https://www.campusfrance.org/fr/le-programme-de-bourses-france-excellence-eiffel (surveiller dès sept. 2026)",
+    "Dates officielles Chevening 2027/28 — https://www.chevening.org",
+    "Catalogue Fundación Carolina 2027-28 (présence des masters visés) — https://www.fundacioncarolina.es/catalogo/",
+    "Conditions Colfuturo 2027 (taux, condonation définitive) — https://www.colfuturo.org/programas/credito-beca/convocatoria",
+    "Academia de Talentos et Mujeres Científicas (détails/deadlines) — https://www.colombie.campusfrance.org/becas",
+    "Contenu du successeur de SEGMA (Skövde) — https://www.his.se",
+    "Deadline 2027 Paris-Saclay — https://www.universite-paris-saclay.fr/en/admission/masters-applications-and-enrolment",
+    "Frais UdeM — https://registraire.umontreal.ca/droits-de-scolarite/calculateur-des-droits-de-scolarite/",
+    "Pensums cours-par-cours : manquants pour la quasi-totalité des 36 programmes — URL officielle de chaque programme",
+    "Vigueur 2026/27 de Pasaporte a la Ciencia (ICETEX) — https://web.icetex.gov.co/creditos/programa-credito-pasaporte-a-la-ciencia-icetex",
+    "Éligibilité de la Colombie aux bourses ARES (Belgique) — https://www.ares-ac.be",
+    "Financement KAIST officiel (tous les admis) — https://admission.kaist.ac.kr",
+    "Balayage du catalogue Erasmus Mundus (27 nouveaux EMJM récents) — https://erasmus-plus.ec.europa.eu",
+    "Seuils de langue : français UdeM/ENJMIN ; anglais MoSIG, TU/e, Utrecht, HKUST, KAIST, CSIM, EIT — pages officielles respectives"
+  ]
+}
